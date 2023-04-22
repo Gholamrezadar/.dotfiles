@@ -48,7 +48,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 alias zshconfig="nvim ~/.zshrc"
 alias ohmyzsh="nvim ~/.oh-my-zsh"
-alias nvimconfig="nvim ~/.config/nvim/init.lua"
+alias nvimconfig="nvim ~/.config/nvim/"
 alias vimconfig="nvim ~/.config/nvim/vimrc.vim"
 alias alacconfig="nvim ~/.config/alacritty/alacritty.yml"
 alias cls="clear"

@@ -55,6 +55,10 @@ alias cls="clear"
 alias nv=nvim
 alias pingv="ping varzesh3.com"
 alias pingg="ping google.com"
+alias dns="resolvectl status | bat -l py"
+alias addgw="route add default gw 192.168.1.1"
+alias gw="ip route | bat -l py"
+alias dotf="cd ~/.dotfiles/"
 # alias python="python3.11"
 # alias pip="pip3.11"
 # alias sd="cd ~ && cd \$(find . -type d | fzf)" # fuzzy finder select directory bah bah
@@ -66,6 +70,21 @@ alias sf="nv \$(find . -type f | fzf)" # fuzzy finder select directory bah bah
 
 export PATH="$HOME/node/bin:$PATH"
 export XDG_CONFIG_HOME="$HOME/.config"
+
+# usefull network debugging
+# Add default gateway!
+# route add default gw 192.168.1.1
+
+# Displays current gateway
+# ip route | bat -l py
+
+# Displays current DNS
+# resolvectl status | bat -l p
+
+# Ip 
+# ip a
+# ifconfig
+
 
 # tmux attach || tmux new
 

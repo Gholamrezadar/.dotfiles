@@ -48,7 +48,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 alias zshconfig="nvim ~/.zshrc"
 alias ohmyzsh="nvim ~/.oh-my-zsh"
-alias nvimconfig="cd ~/.dotfiles/.config/nvim && nvim ."
+alias nvimconfig="cd ~/.dotfiles/.config/nvim/lua/user/ && nvim ."
 alias vimconfig="nvim ~/.config/nvim/vimrc.vim"
 alias alacconfig="nvim ~/.config/alacritty/alacritty.yml"
 alias cls="clear"
@@ -82,5 +82,8 @@ else
     fi
 fi
 unset __conda_setup
+
+# Disable if you dont have datascience env
+conda activate datascience
 # <<< conda initialize <<<
 

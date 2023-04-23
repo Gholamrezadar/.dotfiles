@@ -1,0 +1,3803 @@
+: 1679446359:0;cls
+: 1679446430:0;zshconfig
+: 1679446436:0;zsh
+: 1679446439:0;zshconfig
+: 1679446443:0;gedit
+: 1679446471:0;zsh
+: 1679446479:0;zshconfig
+: 1679446622:0;dconf-cli
+: 1679446683:0;zsh
+: 1679446690:0;p10k configure
+: 1679446708:0;git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+: 1679446730:0;zsh
+: 1679446791:0;zshconfig
+: 1679447043:0;git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions 
+: 1679447058:0;git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
+: 1679447078:0;zshconfig
+: 1679447177:0;zsh
+: 1679447186:0;zshconfig
+: 1679447192:0;cls
+: 1679447195:0;clear
+: 1679447359:0;zshconfig
+: 1679447372:0;zsh
+: 1679447374:0;cls
+: 1679447375:0;z
+: 1679447394:0;cd Downloads
+: 1679447398:0;..
+: 1679447399:0;cls
+: 1679447402:0;z do
+: 1679447405:0;cls
+: 1679447409:0;ls
+: 1679447411:0;ll
+: 1679447412:0;la
+: 1679447450:0;sudo apt-get install dconf-cli\
+
+: 1679447477:0;git clone https://github.com/dracula/gnome-terminal\
+cd gnome-terminal
+: 1679447485:0;ls
+: 1679447605:0;./install.sh
+: 1679447716:0;zsh
+: 1679447745:0;ll
+: 1679447750:0;ls
+: 1679447761:0;cd Downloads
+: 1679447762:0;ls
+: 1679448242:0;cd Downloads
+: 1679448243:0;ll
+: 1679448245:0;tree
+: 1679448273:0;sudo apt install tree
+: 1679448282:0;sudo apt install curl
+: 1679448288:0;zsh
+: 1679448292:0;tree
+: 1679448560:0;[200~git clone https://github.com/dracula/gimp.git
+: 1679448565:0;git clone https://github.com/dracula/gimp.git\
+
+: 1679448612:0;cp -r ~/gimp/Dracula/ ~/.config/GIMP/2.10/themes/
+: 1679448631:0;~/.config
+: 1679448632:0;ranger
+: 1679448656:0;ranger -h
+: 1679448701:0;ranger
+: 1679448730:0;ranger .
+: 1679448923:0;~
+: 1679448924:0;ls
+: 1679448950:0;cd /
+: 1679448956:0;ranger
+: 1679449010:0;~
+: 1679449012:0;ranger
+: 1679449198:0;cp -r ~/gimp/Dracula/ /.var/app/org.gimp.GIMP/config/GIMP/2.10/themes
+: 1679449225:0;cp -r ~/gimp/Dracula/ ~/.var/app/org.gimp.GIMP/config/GIMP/2.10/themes
+: 1679449227:0;ls
+: 1679450463:0;[200~gsettings set org.gnome.desktop.interface gtk-theme "Dracula"
+: 1679450467:0;~gsettings set org.gnome.desktop.interface gtk-theme "Dracula"\
+gsettings set org.gnome.desktop.interface gtk-theme "Dracula"\
+
+: 1679450471:0;gsettings set org.gnome.desktop.interface gtk-theme "Dracula"\
+
+: 1679450477:0;gsettings set org.gnome.desktop.wm.preferences theme "Dracula"\
+
+: 1679450601:0;la
+: 1679450609:0;cd .th
+: 1679450612:0;cd .themes
+: 1679450613:0;ls
+: 1679450633:0;cd Dracula-slim
+: 1679450635:0;ls
+: 1679450643:0;gedit README.md
+: 1679450697:0;gsettings set org.gnome.desktop.interface gtk-theme "Ant-Dracula"\
+gsettings set org.gnome.desktop.wm.preferences theme "Ant-Dracula"
+: 1679451954:0;gsettings set org.gnome.shell.extensions.dash-to-dock show-mounts false
+: 1679452380:0;nvidia-smi
+: 1679452388:0;sudo apt install nvidia-smi
+: 1679452792:0;lspci -vnnn | perl -lne 'print if /^\d+\:.+(\[\S+\:\S+\])/' | grep VGA\
+
+: 1679452849:0;nvidia-settings\
+
+: 1679453232:0;sudo add-apt-repository ppa:deadsnakes/ppa
+: 1679453272:0;sudo apt search python
+: 1679453317:0;sudo apt search python3
+: 1679453321:0;sudo apt search python3.11
+: 1679453339:0;sudo apt install python3.11
+: 1679453485:0;python
+: 1679453488:0;python3
+: 1679453500:0;python3.11
+: 1679453510:0;pip3
+: 1679453512:0;pip
+: 1679453567:0;sudo apt remove --purge python3.11
+: 1679453599:0;apt --fix-broken install
+: 1679453609:0;sudo apt --fix-broken install
+: 1679453628:0;sudo apt remove --purge python3.11
+: 1679453633:0;cls
+: 1679453636:0;python3
+: 1679453639:0;cls
+: 1679453657:0;curl -sS https://bootstrap.pypa.io/get-pip.py | python3
+: 1679453687:0;pip
+: 1679453690:0;pip3
+: 1679453691:0;cls
+: 1679453692:0;pip
+: 1679453694:0;zsh
+: 1679453694:0;pip
+: 1679453702:0;cls
+: 1679453707:0;python3 -m pip
+: 1679453725:0;pip3
+: 1679453727:0;pip3.10
+: 1679453730:0;pip3
+: 1679453783:0;sudo apt install python3-pip
+: 1679453840:0;flatpak search vlc
+: 1679453897:0;flatpak install org.videolan.VLC
+: 1679453935:0;flatpak install vlc
+: 1679454473:0;pip
+: 1679454478:0;pip -V
+: 1679454481:0;pip -v
+: 1679454485:0;pip -V
+: 1679455080:0;sudo apt purge snapd
+: 1679455945:0;sudo apt install htop
+: 1679456015:0;htop
+: 1679457153:0;sudo apt install preload
+: 1679457431:0;[200~sudo apt-get install neovim
+: 1679457437:0;sudo apt-get install neovim\
+
+: 1679457693:0;zshconfig
+: 1679458053:0;zsh
+: 1679458085:0;zshconfig
+: 1679458102:0;zsh
+: 1679458109:0;copypath
+: 1679458115:0;ls
+: 1679458117:0;clear
+: 1679458118:0;cls
+: 1679458122:0;_
+: 1679458125:0;$
+: 1679458128:0;alias
+: 1679458145:0;-
+: 1679458252:0;h
+: 1679458258:0;history
+: 1679458260:0;h
+: 1679458269:0;hs zsh
+: 1679458278:0;cls
+: 1679458290:0;echo "ho"
+: 1679458292:0;sudo echo "ho"
+: 1679458301:0;vim
+: 1679458310:0;nvim
+: 1679458715:0;mkdir -h
+: 1679458718:0;mkdir --h
+: 1679458754:0;mkdir -p ~/.config/nvim
+: 1679458766:0;cd ~/.config/nvim
+: 1679458768:0;ls
+: 1679458774:0;ll
+: 1679458775:0;la
+: 1679458777:0;ll
+: 1679458778:0;l
+: 1679458863:0;nv
+: 1679458867:0;vls
+: 1679458869:0;cls
+: 1679458882:0;vim init.lua
+: 1679458906:0;vim vimrc.vim
+: 1679458971:0;vim
+: 1679458992:0;nvimconfig
+: 1679459021:0;zshconfig
+: 1679459035:0;nvimconfig
+: 1679459042:0;zsh
+: 1679459043:0;nvimconfig
+: 1679459086:0;vim
+: 1679459132:0;sudo apt remove --purge neovim
+: 1679459592:0;sudo add-apt-repository ppa:neovim-ppa/stable\
+
+: 1679459617:0;sudo apt-get update\
+
+: 1679459628:0;sudo apt-get install neovim\
+
+: 1679459677:0;nvimconfig
+: 1679459705:0;nvim
+: 1679459742:0;sudo apt remove --purge neovim
+: 1679460013:0;nvim
+: 1679460017:0;neovim
+: 1679460019:0;vim
+: 1679460033:0;nvim
+: 1679460101:0;sudo dpkg -i nvim-linux64.deb
+: 1679460110:0;nvim
+: 1679460270:0;nv
+: 1679460273:0;vim
+: 1679460277:0;nvim
+: 1679460286:0;zshconfig
+: 1679460313:0;zsh
+: 1679460315:0;nv
+: 1679460324:0;zshconfig
+: 1679460355:0;cls
+: 1679465128:0;free -m
+: 1679465133:0;free
+: 1679465140:0;free -h
+: 1679465150:0;free --help
+: 1679465179:0;free -h
+: 1679465211:0;free -m
+: 1679465754:0;free -h
+: 1679466285:0;watch -h
+: 1679466306:0;man watch
+: 1679466353:0;watch -n 5 free -m
+: 1679466391:0;watch -n 0.5 free -m
+: 1679466413:0;watch -n 0.1 free -m
+: 1679466468:0;free -h
+: 1679466597:0;free -m
+: 1679466777:0;top
+: 1679466781:0;htop
+: 1679467856:0;free -m
+: 1679467867:0;free --help
+: 1679467890:0;free -t
+: 1679467918:0;free -w
+: 1679467943:0;free -l
+: 1679467956:0;free -si
+: 1679467971:0;free --si
+: 1679467982:0;free -m
+: 1679467989:0;free -m --si
+: 1679468003:0;free -g --si
+: 1679468009:0;free -h --si
+: 1679468842:0;vmstat
+: 1679468848:0;vmstat -h
+: 1679468863:0;vmstat
+: 1679476170:0;gnome-shell --help
+: 1679476187:0;gnome-shell --version
+: 1679478361:0;nproc
+: 1679515470:0;touch a.py
+: 1679515472:0;cls
+: 1679515515:0;code
+: 1679515518:0;cls
+: 1679515525:0;code 
+: 1679515527:0;cls
+: 1679515530:0;code
+: 1679515531:0;cls
+: 1679515533:0;..
+: 1679515535:0;code
+: 1679515537:0;..
+: 1679515541:0;z co
+: 1679515543:0;cls
+: 1679515546:0;..
+: 1679515563:0;cls
+: 1679515567:0;h
+: 1679515574:0;cls
+: 1679515694:0;wget -qO- https://raw.githubusercontent.com/cra0zy/code-nautilus/master/install.sh | bash\
+
+: 1679515745:0;node
+: 1679515814:0;ping
+: 1679515820:0;ping varzesh3.com
+: 1679515953:0;zshconfig
+: 1679516080:0;zsh
+: 1679516083:0;cls
+: 1679516085:0;pingg
+: 1679516092:0;pingv
+: 1679516107:0;ping varzesh3.com
+: 1679516120:0;zshconfig
+: 1679516173:0;zsh
+: 1679516175:0;pingv
+: 1679516251:0;ping varzesh3.com
+: 1679516264:0;ping 8.8.8.8
+: 1679516276:0;ping varzesh3.com
+: 1679516360:0;pingv
+: 1679516376:0;zsh
+: 1679516378:0;ping varzesh3.com
+: 1679516541:0;pingv
+: 1679516544:0;zsh
+: 1679516546:0;pingv
+: 1679517021:0;ping 1.1.1.1
+: 1679517060:0;ping 4.2.2.4
+: 1679517075:0;ping 8.8.8.8
+: 1679517084:0;pingv
+: 1679517218:0;ping http://varzesh3.com
+: 1679517231:0;ping -h
+: 1679517277:0;ping -a 1.1.1.1
+: 1679517294:0;ping -A 1.1.1.1
+: 1679517322:0;ping  1.1.1.1
+: 1679517776:0;curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash - &&\\
+sudo apt-get install -y nodejs
+: 1679517991:0;flatpal list 
+: 1679517998:0;flatpak list
+: 1679518003:0;flatpak list all
+: 1679518012:0;flatpak list --all
+: 1679518206:0;node
+: 1679518215:0;cls
+: 1679518239:0;cd code/web
+: 1679518241:0;ls
+: 1679518242:0;ll
+: 1679518243:0;l
+: 1679518249:0;ll
+: 1679518287:0;npm install -g pnpm
+: 1679518462:0;npm
+: 1679518465:0;node
+: 1679518508:0;sudo apt remove --purge node
+: 1679518525:0;sudo apt-get remove --purge node
+: 1679518530:0;node
+: 1679518577:0;sudo apt-get purge nodejs &&\\
+rm -r /etc/apt/sources.list.d/nodesource.list
+: 1679518587:0;node
+: 1679518588:0;ls
+: 1679518647:0;-
+: 1679518653:0;cd code
+: 1679518654:0;-
+: 1679518656:0;cls
+: 1679518660:0;-
+: 1679518662:0;cls
+: 1679518663:0;-
+: 1679518666:0;=
+: 1679518667:0;-
+: 1679518670:0;cls
+: 1679518702:0;curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E zsh -
+: 1679518715:0;bash
+: 1679519183:0;nv ~/.profile
+: 1679519358:0;"Hello":"world"
+: 1679519364:0;echo "Hello":"world"
+: 1679519373:0;echo "Hello"."world"
+: 1679519394:0;$ghd=gholamreza
+: 1679519404:0;export $ghd=gholamreza
+: 1679519416:0;$ghd="gholamreza"
+: 1679519422:0;export $ghd="gholamreza"
+: 1679519441:0;ghd="gholamreza"
+: 1679519449:0;echo $ghd
+: 1679519463:0;echo "Hello:$ghd"
+: 1679519480:0;echo $HOME
+: 1679519488:0;echo $PATH
+: 1679519507:0;echo $PATH | grep :
+: 1679519578:0;.profile
+: 1679519583:0;ll
+: 1679519585:0;l
+: 1679519614:0;./.profile
+: 1679519626:0;sudo . /.profile
+: 1679519642:0;sudo ./.profile
+: 1679519656:0;. ~/.profile\
+
+: 1679519684:0;echo $PATH
+: 1679519690:0;shell
+: 1679519693:0;bash
+: 1679519701:0;cls
+: 1679519715:0;node --version
+: 1679519719:0;npm --version
+: 1679519727:0;npm install -g pnpm
+: 1679519861:0;npx
+: 1679519869:0;cls
+: 1679519873:0;cd code
+: 1679519874:0;ls
+: 1679519880:0;code .
+: 1679520198:0;sudo dpkg -i code_1.76.2-1678817801_amd64.deb
+: 1679520248:0;zh
+: 1679520249:0;zsh
+: 1679520254:0;code .
+: 1679520271:0;~/code
+: 1679520274:0;cls
+: 1679520279:0;cd web
+: 1679520293:0;code .
+: 1679526017:0;nv
+: 1679526174:0;tree
+: 1679526181:0;cd web
+: 1679526200:0;md t3-app-test
+: 1679526212:0;cd
+: 1679526217:0;cd t3-app-test
+: 1679526219:0;ls
+: 1679526222:0;cls
+: 1679526386:0;pnpm create t3-app@latest\
+
+: 1679528704:0;..
+: 1679528761:0;git clone https://github.com/Gholamrezadar/notebook-to-py.git
+: 1679528813:0;code .
+: 1679528836:0;cd notebook-to-py
+: 1679528838:0;cls
+: 1679528841:0;code .
+: 1679528890:0;nv .
+: 1679528957:0;cls
+: 1679528975:0;pnpm install
+: 1679529015:0;code .
+: 1679529115:0;pnpm dev
+: 1679535040:0;ibus-setup
+: 1679535771:0;pnpm dev
+: 1679536524:0;cd my-t3-app/
+: 1679536857:0;npx prisma db push
+: 1679536863:0;npx
+: 1679536869:0;node --version
+: 1679536885:0;node
+: 1679536895:0;pwd
+: 1679536901:0;node
+: 1679536904:0;zsh
+: 1679536913:0;pnpm
+: 1679537053:0;echo $PATH
+: 1679537083:0;zsh
+: 1679537086:0;echo $PATH
+: 1679537133:0;npx prisma db push
+: 1679537266:0;npx prisma db pull
+: 1679537421:0;pnpm dev
+: 1679543414:0;cd /sys
+: 1679543415:0;ls
+: 1679543425:0;cd bus
+: 1679543426:0;l
+: 1679543428:0;ls
+: 1679543459:0;cd cpu
+: 1679543459:0;ls
+: 1679543466:0;cd devices
+: 1679543467:0;ls
+: 1679543479:0;nautilus .
+: 1679543576:0;cd /dev
+: 1679543579:0;ranger
+: 1679544255:0;~
+: 1679544260:0;cls
+: 1679544287:0;cd /bin
+: 1679544292:0;ls
+: 1679544474:0;cd mv
+: 1679544629:0;cd ~
+: 1679544631:0;ls
+: 1679544643:0;ls | grep doc
+: 1679544649:0;ls | grep "Doc"
+: 1679544721:0;ll
+: 1679544729:0;md tmp
+: 1679544730:0;ls
+: 1679545505:0;~
+: 1679545525:0;cd code/web/t3-app-test/my-t3-app/
+: 1679545534:0;code .
+: 1679546201:0;vi
+: 1679546205:0;vi .
+: 1679546224:0;nv .
+: 1679549017:0;~
+: 1679549071:0;cls
+: 1679549172:0;cat cpuinfo
+: 1679549190:0;cat /proc/meminfo
+: 1679549373:0;lsusb
+: 1679549383:0;lspci
+: 1679549515:0;lsblk
+: 1679550755:0;nvimconfig
+: 1679550829:0;vimconfig
+: 1679550847:0;alias
+: 1679550865:0;whence
+: 1679550929:0;where init.lua
+: 1679550934:0;which init.lua
+: 1679550957:0;locate
+: 1679550960:0;find
+: 1679550977:0;find init.lua
+: 1679551013:0;~
+: 1679551017:0;find init.lua
+: 1679551024:0;find -name init.lua
+: 1679551049:0;.
+: 1679551051:0;cd .
+: 1679551087:0;cd .config
+: 1679551091:0;cd nvim
+: 1679551092:0;sl
+: 1679551093:0;ls
+: 1679551094:0;l
+: 1679551096:0;ll
+: 1679551097:0;l
+: 1679551112:0;find -h
+: 1679551116:0;find --help
+: 1679551148:0;find -name vimrc.vim
+: 1679551167:0;find ~/ -name vimrc.vim
+: 1679551188:0;zshconfig
+: 1679551319:0;zsh
+: 1679551327:0;vimconfig
+: 1679551493:0;nvimconfig
+: 1679551531:0;vimconfig
+: 1679551702:0;zsh
+: 1679551706:0;nv
+: 1679551796:0;nvimconfig
+: 1679551847:0;vimconfig
+: 1679551857:0;nvim
+: 1679551902:0;vimconfig
+: 1679552135:0;nvim
+: 1679552183:0;vimconfig
+: 1679552208:0;nvim
+: 1679552285:0;vimconfig
+: 1679552311:0;nvim
+: 1679555957:0;sudo apt update
+: 1679555986:0;apt list --upgradable
+: 1679557230:0;sudo apt-get install \\
+    ca-certificates \\
+    curl \\
+    gnupg \\
+    lsb-release
+: 1679557253:0;sudo mkdir -m 0755 -p /etc/apt/keyrings
+: 1679557270:0;curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+: 1679557284:0;echo \\
+  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \\
+  $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+: 1679557288:0;cls
+: 1679559151:0;sudo apt-get install ./docker-desktop-4.17.0-amd64.deb
+: 1679559206:0;sudo apt install ./docker-desktop-4.17.0-amd64.deb
+: 1679559280:0;sudo apt update -y
+: 1679559290:0;sudo apt-get install ./docker-desktop-4.17.0-amd64.deb
+: 1679559725:0;cls
+: 1679559729:0;docker --version
+: 1679559735:0;docker --help
+: 1679559737:0;cls
+: 1679559875:0;gpg --generate-key
+: 1679559996:0;pass init 05226D0428B9A86E77CE899B3F7886EFBD8A45C1
+: 1679561678:0;docker run --hostname=9189931e751e --env=PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin --runtime=runc -d alpine:latest -it
+: 1679561814:0;docker run --hostname=9189931e751e --env=PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin --runtime=runc -d -it alpine:latest /bin/sh
+: 1679604413:0;nv .
+: 1679604529:0;nv src/pages/index.tsx
+: 1679606062:0;nvimconfig
+: 1679606782:0;cd code
+: 1679606797:0;cd code/web/
+: 1679606804:0;cd web/my-t3-app
+: 1679606805:0;cls
+: 1679606810:0;nv .
+: 1679606907:0;nvimconfig
+: 1679607003:0;nv .
+: 1679607046:0;cd ../
+: 1679607062:0;ls
+: 1679607071:0;nv notebook-to-py
+: 1679607165:0;cls
+: 1679685925:0;neofetch
+: 1679700270:0;nv
+: 1679700935:0;vimconfig
+: 1679701004:0;nv
+: 1679701033:0;nv 
+: 1679701074:0;vimconfig
+: 1679701105:0;nv 
+: 1679701543:0;vimconfig
+: 1679701626:0;nv 
+: 1679701757:0;cls
+: 1679701771:0;echo "Hello world"
+: 1679701779:0;echo "a"
+: 1679701787:0;"a"
+: 1679701796:0;a
+: 1679701801:0;echo a
+: 1679701813:0;echo a 
+: 1679701819:0;echo a a 
+: 1679701828:0;echo a sd  ds d sa das
+: 1679701829:0;cls
+: 1679701833:0;echo hi
+: 1679701838:0;echo hi world
+: 1679701844:0;echo hello world
+: 1679701845:0;cls
+: 1679701883:0;echo "first command"; ehco hi
+: 1679701889:0;echo "first command"; echo hi
+: 1679701908:0;echo "first command"& echo hi
+: 1679701947:0;sleep 2 & echo "2 secs"
+: 1679701962:0;sleep 2 && echo "2 secs"
+: 1679701978:0;echo "first command" && echo hi
+: 1679701982:0;cls
+: 1679701995:0;a=3
+: 1679702004:0;a = 3
+: 1679702011:0;a=3
+: 1679702026:0;echo $HOME
+: 1679702041:0;echo $PATH
+: 1679702042:0;cls
+: 1679702046:0;echo $a
+: 1679702060:0;$a
+: 1679702080:0;sleep $a
+: 1679702105:0;python3 
+: 1679702115:0;cls
+: 1679702120:0;h
+: 1679702144:0;hs echo
+: 1679702151:0;hs a
+: 1679702157:0;hs =
+: 1679702160:0;hs a=
+: 1679702180:0;cls
+: 1679702204:0;echo $a
+: 1679702224:0;echo '$a'
+: 1679702247:0;echo "$a"
+: 1679702265:0;echo "I'm $a years old."
+: 1679702430:0;array=(one two three four 1 4 5)
+: 1679702436:0;echo $array
+: 1679702448:0;sleep $a
+: 1679702480:0;$array
+: 1679702521:0;echo ${array}
+: 1679702573:0;echo ${array[0]}
+: 1679702585:0;echo ${array}
+: 1679702599:0;echo "${array[0]}"
+: 1679702619:0;echo "${array[2]}"
+: 1679702636:0;echo ${array[1]}
+: 1679702645:0;echo ${array[3]}
+: 1679702651:0;echo ${array[-1]}
+: 1679702678:0;echo ${array[@]}
+: 1679702688:0;echo ${array}
+: 1679702717:0;echo ${array[@]:1:4}
+: 1679702747:0;echo ${array[@]:1:2}
+: 1679702773:0;echo ${array:1:4}
+: 1679702786:0;echo ${array:1:2}
+: 1679702831:0;for item in $array; do\
+echo $item\
+done
+: 1679702842:0;bash
+: 1679705324:0;sudo apt install cmake pkg-config libfreetype6-dev libfontconfig1-dev libxcb-xfixes0-dev libxkbcommon-dev python3
+: 1679705374:0;curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+: 1679705532:0;sudo apt install locate
+: 1679705617:0;sudo apt install tmux
+: 1679705640:0;tmux
+: 1679705646:0;pwd
+: 1679705659:0;cls
+: 1679705661:0;h
+: 1679705663:0;cls
+: 1679705735:0;tmux
+: 1679705739:0;sleep 3
+: 1679705901:0;tmux list-sessions
+: 1679705906:0;tmux
+: 1679705915:0;tmux list-sessions
+: 1679705947:0;cls
+: 1679705956:0;echo "a"
+: 1679705973:0;tmux -a
+: 1679705986:0;tmux a
+: 1679706124:0;tmux kill-session
+: 1679706127:0;tmux a
+: 1679706143:0;tmux list-sessions
+: 1679706285:0;tmux
+: 1679706301:0;tmux list-sessions
+: 1679706467:0;cargo
+: 1679706469:0;zsh
+: 1679706471:0;cargo
+: 1679706761:0;vim
+: 1679706765:0;nvim
+: 1679707003:0;sudo apt install alacritty
+: 1679707252:0;zsh
+: 1679707254:0;cargo install alacritty
+: 1679707790:0;alacritty
+: 1679707819:0;cls
+: 1679707831:0;alacritty
+: 1679707842:0;sleep 3
+: 1679707847:0;cls
+: 1679707872:0;locate .yml
+: 1679707877:0;locate
+: 1679707887:0;locate yml
+: 1679707896:0;locate alacritty
+: 1679707903:0;locate --help
+: 1679707944:0;locate web
+: 1679707952:0;locate "web"
+: 1679709008:0;cargo remove alacritty
+: 1679709021:0;cargo --help
+: 1679709032:0;cargo uninstall alacritty
+: 1679709121:0;sudo dpkg -i virtualbox-7.0_7.0.6-155176_Ubuntu_jammy_amd64.deb
+: 1679709379:0;locate alacritty
+: 1679709385:0;alacritty
+: 1679709747:0;sudo add-apt-repository ppa:aslatter/ppa -y\
+
+: 1679709790:0;sudo apt update
+: 1679709804:0;sudo apt install alacritty
+: 1679709833:0;apt --fix-broken install
+: 1679709840:0;sudo apt --fix-broken install
+: 1679709986:0;alacritty
+: 1679709990:0;sudo apt install alacritty
+: 1679710021:0;alacritty
+: 1679710151:0;$XDG_CONFIG_HOME
+: 1679710157:0;echo $XDG_CONFIG_HOME
+: 1679871657:0;alacritty --help
+: 1679871702:0;echo $XDG_CONFIG_HOME
+: 1679871783:0;nvim /etc/environment
+: 1679871847:0;zshconfig
+: 1679871974:0;zsh
+: 1679871979:0;echo $XDG_CONFIG_HOME
+: 1679871998:0;cd $XDG_CONFIG_HOME
+: 1679871999:0;ls
+: 1679872007:0;md alacritty
+: 1679872010:0;cd alacritty
+: 1679872011:0;ls
+: 1679872042:0;nv alacritty.yml
+: 1679872080:0;nvimconfig
+: 1679872263:0;nv alacritty.yml
+: 1679872353:0;alacritty 
+: 1679872361:0;alacritty --help
+: 1679872398:0;alacritty --config-file $XDG_CONFIG_HOME/alacritty/alacritty.yml
+: 1679872401:0;cls
+: 1679872414:0;nv alacritty.yml
+: 1679872608:0;alacritty --config-file $XDG_CONFIG_HOME/alacritty/alacritty.yml
+: 1679872637:0;alacritty
+: 1679872641:0;nv alacritty.yml
+: 1679872788:0;alacritty
+: 1679872804:0;terminal
+: 1679872808:0;alacritty
+: 1679872810:0;cls
+: 1679873015:0;nv alacritty.yml
+: 1679873173:0;alacritty
+: 1679873191:0;sudo pip3
+: 1679873195:0;pip3
+: 1679873217:0;sudo pip3 install -q numpy pandas matplotlib seaborn
+: 1679873261:0;sudo pip3 install  numpy pandas matplotlib seaborn
+: 1679875342:0;cd "/home/ghd/code/cpp/cph_book/" && g++ ch3_binary_search.cpp -o ch3_binary_search && "/home/ghd/code/cpp/cph_book/"ch3_binary_search
+: 1679895885:0;zshconfig
+: 1679895950:0;zsh
+: 1679895957:0;alacconfig
+: 1679896798:0;nvimconfig
+: 1679896944:0;alacconfig
+: 1679904670:0;python3
+: 1679904970:0;ipython
+: 1679904975:0;quit()\
+cla
+: 1679904977:0;cls
+: 1679905067:0;python3
+: 1679905655:0;fg
+: 1679905663:0;cls
+: 1679908359:0;uname -m
+: 1680061982:0;sudo apt install build-essential git subversion cmake libx11-dev libxxf86vm-dev libxcursor-dev libxi-dev libxrandr-dev libxinerama-dev libegl-dev\
+sudo apt install libwayland-dev wayland-protocols libxkbcommon-dev libdbus-1-dev linux-libc-dev
+: 1680062039:0;md ~/code/cpp/blender
+: 1680062047:0;cd ~/code/cpp/blender
+: 1680062063:0;git clone https://projects.blender.org/blender/blender.git
+: 1680148323:0;where g++
+: 1680148328:0;whereis g++
+: 1680148344:0;locate g++
+: 1680148675:0;/usr/bin/time echo "hi"
+: 1680148685:0;time echo "hi"
+: 1680148698:0;sleep 2
+: 1680148702:0;time sleep 2
+: 1680148716:0;/usr/bin/time sleep 2
+: 1680148727:0;env time sleep 2
+: 1680220212:0;clear
+: 1680220234:0;p10k configure
+: 1680220284:0;fc-list
+: 1680220298:0;fc-match nerd
+: 1680220305:0;fc-match Nerd
+: 1680220339:0;p10k configure
+: 1680220396:0;alacconfig
+: 1680220633:0;p10k configure
+: 1680220743:0;cls
+: 1680220749:0;ks
+: 1680220750:0;cls
+: 1680220763:0;zsh
+: 1680220978:0;pnpm install 
+: 1680221467:0;pnpm install zustand
+: 1680221812:0;pnpm dev
+: 1680227943:0;git config --global user.name "Gholamrezadar"
+: 1680227957:0;git config --global user.email "rezadar1378@gmail.com"
+: 1680233369:0;pnpm install danfojs
+: 1680310568:0;pingv
+: 1680310596:0;zshconfig
+: 1680310639:0;pingv
+: 1680310643:0;Ah
+: 1680310644:0;zsh
+: 1680310649:0;cls
+: 1680310653:0;pingv
+: 1680310667:0;pingg
+: 1680310701:0;ping 8.8.8.8
+: 1680310729:0;ping gholamrezadar.ir
+: 1680311708:0;pnpm dev
+: 1680313325:0;pnpm build
+: 1680313869:0;pnpm dev
+: 1680319065:0;next dev --port 5013
+: 1680319075:0;next
+: 1680319102:0;pnpm dev
+: 1680334086:0;./Blender\ Launcher
+: 1680334093:0;sudo ./Blender\ Launcher
+: 1680334516:0;glxinfo -B
+: 1680334559:0;sudo lshw -c video
+: 1680334814:0;ls
+: 1680334816:0;ll
+: 1680334818:0;la
+: 1680334820:0;ll
+: 1680334823:0;la
+: 1680334837:0;cd .local/share/applications
+: 1680334838:0;ls
+: 1680334839:0;ll
+: 1680334840:0;ls
+: 1680334852:0;nautilus .
+: 1680334954:0;blender
+: 1680335058:0;./blender
+: 1680336430:0;sudo apt autoremove --purge nvidia*
+: 1680336441:0;sudo apt list nvidia*
+: 1680336445:0;sudo apt list \
+: 1680336447:0;sudo apt list
+: 1680339923:0;nvidia-smi
+: 1680399488:0;python -u "tempCodeRunnerFile.ipynb"
+: 1680412656:0;cargo
+: 1680412657:0;cls
+: 1680412665:0;ranger
+: 1680412820:0;cd code/rust
+: 1680412823:0;la
+: 1680412824:0;ll
+: 1680412826:0;l
+: 1680412858:0;cargo new ip_sniffer --bin
+: 1680412861:0;l
+: 1680412863:0;cd ip_sniffer
+: 1680412864:0;ls
+: 1680412876:0;nvim .
+: 1680412987:0;cls
+: 1680413092:0;cd code/rust/ip_sniffer
+: 1680413093:0;cls
+: 1680413157:0;cargo run -- -h
+: 1680414646:0;cargo build
+: 1680414650:0;cargo run -- -h
+: 1680414658:0;nvim .
+: 1680414665:0;cargo run -- -h
+: 1680414695:0;cargo run -- -j 1000 192.168.1.1
+: 1680415670:0;sudo apt install font-manager
+: 1680424629:0;cd ~/.local/share
+: 1680424631:0;l
+: 1680424644:0;l | grep "nvim"
+: 1680424648:0;cd nvim
+: 1680424649:0;ls
+: 1680425120:0;cls
+: 1680425138:0;code .
+: 1680425172:0;htop
+: 1680425396:0;nvim .
+: 1680425489:0;nvim pages/index.tsx
+: 1680425515:0;nvim
+: 1680425524:0;cowsay
+: 1680425526:0;cls
+: 1680425551:0;ranger --help
+: 1680425737:0;cd code/web
+: 1680425739:0;ranger
+: 1680426045:0;tmux list-sessions
+: 1680426049:0;tmux
+: 1680426063:0;tmux list-sessions
+: 1680426315:0;whereis python3
+: 1680426321:0;where python3
+: 1680426359:0;which python3
+: 1680426363:0;python
+: 1680426370:0;python3
+: 1680426477:0;flatpak list --all
+: 1680426559:0;sudo apt clean
+: 1680426567:0;sudo apt-get clean
+: 1680426575:0;sudo apt autoclean
+: 1680426579:0;cls
+: 1680428519:0;python3
+: 1680448367:0;ffmpeg
+: 1680448378:0;sudo apt install ffmpeg
+: 1680450133:0;ffmpeg
+: 1680450901:0;./nekoray
+: 1680455890:0;nvim
+: 1680489811:0;mv ~/.local/share/nvim ~/.local/share/nvim.bak
+: 1680489826:0;mv ~/.local/state/nvim ~/.local/state/nvim.bak
+: 1680489851:0;mv ~/.cache/nvim ~/.cache/nvim.bak
+: 1680489937:0;mv ~/.config/nvim ~/.config/nvim.bak\
+
+: 1680489947:0;git clone --depth 1 https://github.com/AstroNvim/AstroNvim ~/.config/nvim\
+
+: 1680490003:0;nvim
+: 1680490302:0;git clone https://github.com/gholamrezadar/astronvim_config ~/.config/nvim/lua/user
+: 1680490358:0;git -h
+: 1680490363:0;git --help
+: 1680490534:0;git clone https://github.com/gholamrezadar/astronvim_config ~/.config/nvim/lua/user
+: 1680490591:0;cd .config/nvim/lua/user
+: 1680490592:0;l
+: 1680490597:0;ranger
+: 1680490981:0;nvim
+: 1680491045:0;:q
+: 1680491239:0;nvim
+: 1680491271:0;nvim .
+: 1680491293:0;nvim
+: 1680491305:0;nvim .
+: 1680492034:0;pingv
+: 1680493027:0;nvim .
+: 1680493033:0;nvim
+: 1680493040:0;nvim .
+: 1680493809:0;nvim
+: 1680493839:0;nvim init.lua
+: 1680495492:0;nvim options.lua
+: 1680516254:0;nvim
+: 1680594569:0;pip3 install plotly
+: 1680600443:0;pip install --upgrade nbformat
+: 1680600452:0;where pip
+: 1680600455:0;where pip3
+: 1680600467:0;pip3 install --upgrade nbformat
+: 1680600478:0;zshconfig
+: 1680600703:0;cd .config/nvim/lua/user
+: 1680600705:0;l
+: 1680600710:0;nvim .
+: 1680600800:0;zshconfig
+: 1680600812:0;where pip
+: 1680600816:0;pip
+: 1680600821:0;cls
+: 1680670477:0;cmake
+: 1680671077:0;xxd
+: 1680671110:0;cd code/
+: 1680671115:0;md c
+: 1680671118:0;cd c
+: 1680671119:0;ls
+: 1680671132:0;md assembly_test
+: 1680671134:0;cd assembly_test
+: 1680671136:0;ls
+: 1680671146:0;nvim .
+: 1680671397:0;gcc --help
+: 1680671442:0;man gcc
+: 1680671501:0;gcc a.cpp -o a
+: 1680671515:0;gcc a.cpp -o a.out
+: 1680671532:0;g++ a.cpp -o a
+: 1680671540:0;./a
+: 1680671551:0;xxd a
+: 1680671609:0;g++ a.cpp -O2 -o a
+: 1680671611:0;xxd a
+: 1680671682:0;g++ a.cpp -O2 -o a
+: 1680671885:0;./a
+: 1680671888:0;./b
+: 1680671903:0;"./b\
+"
+: 1680671918:0;"./b"\
+"\
+./"b"\
+\
+\
+\
+\
+
+: 1680671941:0;./"b"
+: 1680671945:0;./b
+: 1680671950:0;sudo ./b
+: 1680671959:0;chmod 777 b
+: 1680671963:0;sudo ./b
+: 1680671972:0;./b
+: 1680671983:0;man chmod
+: 1680672765:0;g++ a.cpp -O2 -o a & ./a
+: 1680672860:0;cd "/home/ghd/code/cpp/learncpp/" && g++ a.cpp -o a && "/home/ghd/code/cpp/learncpp/"a
+: 1680672897:0;cd "/home/ghd/code/cpp/learncpp/" & g++ a.cpp -o a & "/home/ghd/code/cpp/learncpp/"a 
+: 1680672921:0;cd "/home/ghd/code/cpp/learncpp/" && g++ a.cpp -o a && "/home/ghd/code/cpp/learncpp/"a
+: 1680674422:0;l
+: 1680674465:0;cd "/home/ghd/code/cpp/learncpp/" && g++ a.cpp -o a && "/home/ghd/code/cpp/learncpp/"a
+: 1680674469:0;l
+: 1680674491:0;g++ a.cpp -O2 -o b
+: 1680674493:0;l
+: 1680674611:0;g++ a.cpp -O3 -o b && l
+: 1680674628:0;g++ a.cpp -Os -o b && l
+: 1680677050:0;cd "/home/ghd/code/cpp/learncpp/" && g++ a.cpp -o a && "/home/ghd/code/cpp/learncpp/"a
+: 1680682946:0;l
+: 1680682966:0;./qt-unified-linux-x64-4.5.2-online.run
+: 1680682972:0;sudo ./qt-unified-linux-x64-4.5.2-online.run
+: 1680682998:0;cmod 777 qt-unified-linux-x64-4.5.2-online.run
+: 1680683003:0;chmod 777 qt-unified-linux-x64-4.5.2-online.run
+: 1680683007:0;./qt-unified-linux-x64-4.5.2-online.run
+: 1680683583:0;zshconfig
+: 1680702338:0;curl cheat.sh/ls
+: 1680702375:0;curl cheat.sh/:vim
+: 1680703276:0;sudo apt install fzf
+: 1680703288:0;fzf
+: 1680703530:0;man fzf
+: 1680703589:0;cd $(2+2)
+: 1680703596:0;cd $(2)
+: 1680703604:0;cd $(fzf)
+: 1680704095:0;find *
+: 1680704112:0;find * -type d
+: 1680704124:0;fzf
+: 1680704140:0;cd $(find * -type d | fzf)\
+
+: 1680704181:0;find *
+: 1680704184:0;find .
+: 1680704298:0;zshconfig
+: 1680704347:0;cls
+: 1680704351:0;sd
+: 1680704353:0;zsh
+: 1680704354:0;sd
+: 1680704358:0;cls
+: 1680704361:0;~
+: 1680704395:0;sd
+: 1680704397:0;zsh
+: 1680704400:0;sd
+: 1680704419:0;zshconfig
+: 1680704444:0;zsh
+: 1680704445:0;sd
+: 1680704464:0;l
+: 1680704471:0;cd nvim
+: 1680704475:0;l
+: 1680704499:0;git commit -m "updated Apr 5 2023"
+: 1680704507:0;git add .
+: 1680704508:0;git commit -m "updated Apr 5 2023"
+: 1680704512:0;git status
+: 1680704570:0;zshconfig
+: 1680704682:0;tmux
+: 1680704688:0;cls
+: 1680705068:0;sd
+: 1680705078:0;cls
+: 1680705081:0;alias
+: 1680705090:0;alias | fzf
+: 1680705154:0;alias
+: 1680705159:0;alias | fzf
+: 1680753790:0;man chmod 
+: 1680753984:0;fzf
+: 1680753998:0;find .
+: 1680754031:0;cd /
+: 1680754033:0;find .
+: 1680754056:0;/media
+: 1680754057:0;l
+: 1680754062:0;cd ghd
+: 1680754063:0;ls
+: 1680754066:0;cd Reza
+: 1680754068:0;ls
+: 1680754070:0;l
+: 1680754071:0;ll
+: 1680754079:0;l
+: 1680754798:0;alias | fzf
+: 1680754949:0;l
+: 1680754968:0;ehco $(dircolors)
+: 1680754974:0;echo $(dircolors)
+: 1680754994:0;nv ~/.bashrc
+: 1680755044:0;nv .
+: 1680755250:0;fzf
+: 1680755298:0;zf
+: 1680755304:0;fzf .
+: 1680755314:0;man fzf
+: 1680755461:0;find . | fzf
+: 1680755481:0;nvim
+: 1680757094:0;cd .config/nvim
+: 1680757097:0;nv .
+: 1680757902:0;cls
+: 1680758145:0;killall vlc
+: 1680758151:0;ps aux
+: 1680758159:0;ps aux | grep vlc
+: 1680758224:0;sudo kill -9 608168
+: 1680758228:0;ps aux | grep vlc
+: 1680758747:0;flatpak install flathub net.christianbeier.Gromit-MPX\
+
+: 1680758953:0;killall gromit
+: 1680758962:0;ps aux | grep gromit
+: 1680758987:0;sudo kill -9 968136
+: 1680795587:0;python turtleee.py
+: 1680795594:0;pip install tkinter
+: 1680795606:0;pip3 install tkinter
+: 1680795626:0;pip3 install tk
+: 1680795633:0;python turtleee.py
+: 1680795640:0;python3 turtleee.py
+: 1680795651:0;pip freeze
+: 1680795671:0;sudo apt install python3-tk
+: 1680795690:0;python3 turtleee.py
+: 1680843042:0;ps aux | grep vlc
+: 1680843079:0;top
+: 1680843099:0;htop
+: 1680855440:0;cd "/home/ghd/code/cpp/learncpp/" && g++ a.cpp -o a && "/home/ghd/code/cpp/learncpp/"a
+: 1680861341:0;du -h --max-depth=1
+: 1680861358:0;du --help
+: 1680861439:0;cd code
+: 1680861440:0;l
+: 1680861444:0;du -h
+: 1680861455:0;du -h --summarize
+: 1680861471:0;du -h --max-depth=1
+: 1680861649:0;du -h --max-depth=1 | sort 
+: 1680861668:0;du -h --max-depth=1 | sort -h
+: 1680861685:0;du -h --max-depth=1 | sort -hr
+: 1680862485:0;ping download.qt.io
+: 1680862497:0;ping download.qt.io/archive
+: 1680862501:0;ping download.qt.io/archive/qt
+: 1680862505:0;ping download.qt.io/archive/qt/5.12
+: 1680864930:0;docker images
+: 1680864941:0;docker containers
+: 1680864952:0;docker ps
+: 1680864962:0;ps -a
+: 1680864971:0;docker ps -a
+: 1680865040:0;docker images --format "{{.Repository}}:{{.Tag}}"\
+
+: 1680865197:0;docker images
+: 1680865341:0;docker run --name my_alpine_container alpine
+: 1680865346:0;docker ps
+: 1680865355:0;docker ps --all
+: 1680865430:0;docker run --name my_alpine_container alpine
+: 1680865484:0;docker start my_alpine_container
+: 1680865489:0;docker ps --all
+: 1680865517:0;man docker start
+: 1680865599:0;man docker run
+: 1680865674:0;man docker start -i
+: 1680865687:0;docker start -i my_alpine_container
+: 1680865700:0;docker start -it my_alpine_container
+: 1680865708:0;docker start -i my_alpine_container
+: 1680865720:0;docker ps --all
+: 1680865751:0;docker rm my_alpine_container
+: 1680865760:0;docker ps --all
+: 1680865802:0;docker run -it --name my_it_alpine alpine
+: 1680865835:0;docker ps --all
+: 1680865878:0;docker run -it -d --name my_it_alpine_2 alpine
+: 1680865883:0;docker ps --all
+: 1680865895:0;docker run -it -d --name my_it_alpine_2 alpine
+: 1680865897:0;docker ps --all
+: 1680865907:0;docker stats
+: 1680865924:0;cls
+: 1680865957:0;docker inspect my_it_alpine_2 8a2f98f6c3e8 22
+: 1680866014:0;docker exec -it my_it_alpine_2 sh
+: 1680866162:0;help du
+: 1680866164:0;man du
+: 1680866200:0;du -d=1
+: 1680866205:0;du -d 1 -h
+: 1680866251:0;du -hac --max-depth=1 | sort -hr
+: 1680866692:0;docker run --hostname=be52593765ec --env=PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin --restart=no --runtime=runc -t -d alpine
+: 1680867437:0;docker run --hostname=5ba80cff9b44 --env=PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin --runtime=runc -d alpine:latest
+: 1680867464:0;docker run --hostname=5ba80cff9b44 --env=PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin --runtime=runc -d -it alpine:latest
+: 1680867522:0;docker run -d alpine
+: 1680867581:0;docker run -d -it alpine
+: 1680867620:0;docker start -i nifty_edison
+: 1680867631:0;docker start -it nifty_edison
+: 1680867640:0;docker start -i -d nifty_edison
+: 1680867655:0;docker restart -i -d nifty_edison
+: 1680867666:0;docker restart -d nifty_edison
+: 1680870203:0;sd
+: 1680938275:0;where blender
+: 1680938277:0;blender
+: 1680938320:0;l
+: 1680938323:0;/blen
+: 1680938331:0;./blender
+: 1680938356:0;nvidia-smi
+: 1680962457:0;alacconfig
+: 1680962660:0;git clone https://github.com/gpakosz/.tmux.git "~/oh-my-tmux"
+: 1680962675:0;mkdir -p "~/.config/tmux"
+: 1680962715:0;ln -s "~/oh-my-tmux/.tmux.conf" "~/.config/tmux/tmux.conf"
+: 1680962744:0;cp "~/oh-my-tmux/.tmux.conf.local" "~/.config/tmux/tmux.conf.local"
+: 1680962747:0;tmux
+: 1680962749:0;ls
+: 1680962754:0;tmux
+: 1680963141:0;md "~/a"
+: 1680963147:0;ls
+: 1680963162:0;md ~/aa
+: 1680963165:0;ls
+: 1680963210:0;ln -s ~/oh-my-tmux/.tmux.conf ~/.config/tmux/tmux.conf
+: 1680963267:0;zsh
+: 1680963268:0;cls
+: 1680963273:0;tmux
+: 1680963297:0;cd .config
+: 1680963300:0;cd tmux
+: 1680963301:0;l
+: 1680963313:0;nv tmux.conf.local
+: 1680963498:0;tmux source-file tmux.conf
+: 1680963500:0;tmux
+: 1680963584:0;alacconfig
+: 1680963640:0;$TERM=xterm-256color
+: 1680963648:0;TERM=xterm-256color
+: 1680963655:0;$TERM
+: 1680963660:0;zsh
+: 1680963663:0;terminal
+: 1680963665:0;term
+: 1680963693:0;alacritty
+: 1680963697:0;zsh
+: 1680963699:0;cls
+: 1680963703:0;tmux
+: 1680963722:0;nv tmux.conf.local
+: 1680963921:0;tmux
+: 1680963927:0;htop
+: 1680963958:0;sudo apt install cmatrix
+: 1680963987:0;pwd
+: 1680964015:0;cmatrix
+: 1680964087:0;zsh
+: 1680964121:0;cls
+: 1680965360:0;du --summary
+: 1680965364:0;du --summarize
+: 1680965367:0;du --summarize -h
+: 1680965373:0;watch du --summarize -h
+: 1680966008:0;df
+: 1680966014:0;df -T
+: 1680966132:0;df -h
+: 1680966140:0;df --help
+: 1680966147:0;df -h
+: 1680966179:0;df -hT
+: 1680966215:0;df -h
+: 1680966738:0;ipconfig
+: 1680966742:0;ifconfig
+: 1680966747:0;ip
+: 1680966756:0;netstat
+: 1680966781:0;ip a
+: 1680966783:0;ip r
+: 1680966816:0;ip addr
+: 1680966823:0;ifconfig
+: 1680966831:0;sudo apt install ifconfig
+: 1680968146:0;bash
+: 1680968201:0;sudo apt install net-tools
+: 1680968213:0;ifconfig
+: 1680968215:0;ip
+: 1680968219:0;ipconfig
+: 1680968221:0;ifconfig
+: 1680970529:0;ssh ubuntu@5.160.40.35:2024
+: 1680970571:0;ssh root@5.160.40.35:2024
+: 1680970581:0;ssh root@5.160.40.35
+: 1680970603:0;ssh ubuntu@5.160.40.35
+: 1680970669:0;ssh ubuntu@5.160.40.35 -p 2024
+: 1680975081:0;tree -h
+: 1680975087:0;tree -l 1
+: 1680975091:0;tree -L 1
+: 1680975097:0;man tree
+: 1680975191:0;\
+cla
+: 1680975193:0;cls
+: 1680975202:0;tree -L 2 -sh
+: 1680975206:0;tree -L 2 -s
+: 1680975208:0;tree -L 2 -sh
+: 1680975309:0;pwd
+: 1680975314:0;/
+: 1680975316:0;l
+: 1680975322:0;ls
+: 1680975711:0;ls -l
+: 1680975724:0;ls bin
+: 1680975976:0;cmatrix
+: 1680976081:0;cd /mnt
+: 1680976083:0;l
+: 1681023492:0;echo gc 
+: 1681023503:0;echo ${{gc}}
+: 1681023509:0;echo `gc`
+: 1681023516:0;gc -h
+: 1681023526:0;alias | fzf
+: 1681023576:0;git clone https://github.com/Gholamrezadar/.dotfiles.git
+: 1681024034:0;ls
+: 1681024043:0;l ~/.ssh
+: 1681024207:0;man ssh-keygen 
+: 1681024282:0;ssh-keygen -t ed25519 -C "rezadar1378@gmail.com"
+: 1681024370:0;eval "$(ssh-agent -s)"
+: 1681024384:0;ssh-add ~/.ssh/id_ed25519
+: 1681024417:0;cat ~/.ssh/id_ed25519.pub
+: 1681024492:0;cls
+: 1681024497:0;git clone https://github.com/Gholamrezadar/.dotfiles.git
+: 1681024542:0;git clone git@github.com:Gholamrezadar/.dotfiles.git
+: 1681024552:0;ls
+: 1681024557:0;l
+: 1681024576:0;sd
+: 1681024589:0;ls
+: 1681024594:0;l | fzf
+: 1681024779:0;nv .zsh_history
+: 1681035818:0;py
+: 1681035824:0;python
+: 1681050674:0;ipython
+: 1681050977:0;vim 
+: 1681051003:0;nv Ipython.sh
+: 1681051071:0;where bash
+: 1681051126:0;./Ipython.sh
+: 1681051138:0;chmod +x ./Ipython.sh
+: 1681051140:0;./Ipython.sh
+: 1681051148:0;clear
+: 1681051150:0;l
+: 1681051156:0;pwd
+: 1681051166:0;cls
+: 1681051172:0;~
+: 1681051187:0;cd .local/share/applications
+: 1681051188:0;l
+: 1681051191:0;ll
+: 1681051191:0;ls
+: 1681051211:0;nv Ipython.desktop
+: 1681051221:0;ls
+: 1681051225:0;nv Ipython.desktop
+: 1681051229:0;ls
+: 1681051243:0;nv blender.desktop
+: 1681051269:0;nv Ipython.desktop
+: 1681051473:0;sudo update-alternatives --config x-terminal-emulator\
+
+: 1681051557:0;python
+: 1681055134:0;sd
+: 1681055139:0;ls
+: 1681055142:0;cls
+: 1681055564:0;/home/ghd/code/cpp/opengl_1/build/opengl_1
+: 1681061220:0;sudo apt install libglfw3-dev
+: 1681061726:0;/home/ghd/code/cpp/opengl_1/build/opengl_1
+: 1681065342:0;python
+: 1681065350:0;cls
+: 1681065390:0;sudo add-apt-repository ppa:deadsnakes/ppa 
+: 1681065426:0;sudo apt install python3.11
+: 1681065496:0;python3.11
+: 1681065507:0;where python
+: 1681065516:0;where alacconfig
+: 1681065523:0;where python3.11
+: 1681065530:0;where python3.10
+: 1681065544:0;where python
+: 1681065570:0;curl -sS https://bootstrap.pypa.io/get-pip.py | python3.11 
+: 1681065577:0;where python3
+: 1681065590:0;cd /usr/bin
+: 1681065592:0;ls
+: 1681065601:0;ls | grep python
+: 1681065613:0;cd python3
+: 1681065631:0;./python3
+: 1681065645:0;./python3.10
+: 1681065660:0;python3.11
+: 1681065687:0;pip3.11
+: 1681065696:0;pip3
+: 1681065720:0;curl -sS https://bootstrap.pypa.io/get-pip.py | python3.11 
+: 1681065838:0;curl https://bootstrap.pypa.io/get-pip.py | python3.11 
+: 1681065887:0;pip3.10
+: 1681066045:0;pip3.11
+: 1681066055:0;zshrc
+: 1681066061:0;zshconfig
+: 1681066105:0;pip
+: 1681066108:0;pip -v
+: 1681066110:0;pip -V
+: 1681066117:0;python
+: 1681066125:0;zsh
+: 1681066126:0;python
+: 1681066218:0;pip install -q numpy matplotlib pandas opencv-python scikit-learn
+: 1681066230:0;pip install numpy matplotlib pandas opencv-python scikit-learn
+: 1681068744:0;pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+: 1681136991:0;import torch
+: 1681137014:0;python
+: 1681145715:0;pkg-config
+: 1681145727:0;pkg-config --cflags glfw3
+: 1681145740:0;pkg-config --libs glfw
+: 1681145744:0;pkg-config --libs glfw3
+: 1681145749:0;pkg-config --cflags glfw
+: 1681145751:0;pkg-config --cflags glfw3
+: 1681145754:0;echo pkg-config --cflags glfw3
+: 1681145759:0;pkg-config --cflags glfw3
+: 1681146614:0;where make
+: 1681146617:0;where cmake
+: 1681146709:0;sudo apt install vulkan-tools
+: 1681146730:0;vkcube
+: 1681146754:0;vulkaninfo
+: 1681146915:0;cd code
+: 1681146977:0;zshconfig
+: 1681147437:0;z cpp
+: 1681147443:0;cls
+: 1681147445:0;~
+: 1681147478:0;sd
+: 1681147503:0;sudo sdsd
+: 1681147515:0;sd
+: 1681147550:0;z lcpp
+: 1681147552:0;~
+: 1681147554:0;z lcpp
+: 1681147560:0;z lc
+: 1681147563:0;z cpp
+: 1681147684:0;zsh
+: 1681147687:0;man tar
+: 1681147694:0;z
+: 1681147713:0;z /home/ghd/code/cpp/learncpp
+: 1681147716:0;~
+: 1681147724:0;cd code/cpp
+: 1681147725:0;l
+: 1681147735:0;md vulkan_tutorial
+: 1681147740:0;ls
+: 1681147746:0;cd vulkan_tutorial
+: 1681147746:0;ls
+: 1681147782:0;sudo apt install libvulkan-dev
+: 1681147796:0;sudo apt install vulkan-validationlayers-dev spirv-tools
+: 1681147928:0;sudo apt install libglm-dev~
+: 1681147935:0;sudo apt install libglm-dev
+: 1681148184:0;code .
+: 1681148351:0;where vkcube
+: 1681149102:0;make
+: 1681149107:0;make .
+: 1681149176:0;l
+: 1681149179:0;make
+: 1681149229:0;make test
+: 1681149240:0;make clean
+: 1681151198:0;make
+: 1681151201:0;make tes
+: 1681151204:0;make test
+: 1681198409:0;sudo mv glslc /usr/local/bin
+: 1681198418:0;cd /
+: 1681198419:0;ls
+: 1681198428:0;cd bin
+: 1681198429:0;l
+: 1681198431:0;ls
+: 1681198479:0;cd /usr/local/bin
+: 1681198480:0;ls
+: 1681198484:0;glslc
+: 1681204362:0;chmod +x compile.sh
+: 1681204394:0;compile.sh
+: 1681204401:0;./compile.sh
+: 1681204581:0;.
+: 1681204587:0;cd .
+: 1681204594:0;pwd
+: 1681204597:0;cd .
+: 1681204599:0;cd ..
+: 1681204753:0;echo $PATH
+: 1681204790:0;echo $PATH | tr ":" "\n"
+: 1681204889:0;ls /usr/bin
+: 1681204913:0;ls /usr/bin | fzf
+: 1681205532:0;zshconfig
+: 1681205583:0;zsh
+: 1681205616:0;tmux new
+: 1681205625:0;tmux attach
+: 1681205639:0;zshconfig
+: 1681205652:0;zsh
+: 1681205654:0;cls
+: 1681205888:0;nv ~/.p10k.zsh
+: 1681206195:0;zsh
+: 1681206693:0;ls
+: 1681206701:0;cls
+: 1681207757:0;make && make test
+: 1681207848:0;"/home/ghd/code/cpp/vulkan_tutorial/VulkanTest" 
+: 1681208748:0;make && make test
+: 1681209258:0;make
+: 1681209269:0;cd vulkan_tutorial
+: 1681209270:0;make
+: 1681209280:0;rm -f VulkanTest
+: 1681209283:0;make
+: 1681209298:0;./VulkanTest
+: 1681210235:0;wget -qO- https://packages.lunarg.com/lunarg-signing-key-pub.asc | sudo tee /etc/apt/trusted.gpg.d/lunarg.asc\
+sudo wget -qO /etc/apt/sources.list.d/lunarg-vulkan-1.3.239-jammy.list https://packages.lunarg.com/vulkan/1.3.239/lunarg-vulkan-1.3.239-jammy.list\
+sudo apt update\
+sudo apt install vulkan-sdk
+: 1681210374:0;pkg-config --static --libs glfw3
+: 1681210538:0;where glslc
+: 1681210545:0;fzf
+: 1681210593:0;vulkan-sdk
+: 1681210597:0;zsh
+: 1681210802:0;echo $PATH | tr ":" "\n"
+: 1681210816:0;echo $VULKAN_SDK
+: 1681210894:0;vkvia
+: 1681211103:0;cd /usr/
+: 1681211104:0;l
+: 1681211114:0;cd lib
+: 1681211115:0;l
+: 1681211126:0;fzf .
+: 1681211127:0;fzf
+: 1681211134:0;l | fzf
+: 1681211146:0;ls
+: 1681211148:0;l
+: 1681211152:0;cd include
+: 1681211153:0;l
+: 1681211160:0;cd vulkan
+: 1681211161:0;l
+: 1681211164:0;pwd
+: 1681211367:0;make cleaan
+: 1681211369:0;make
+: 1681211389:0;make test
+: 1681217106:0;pip3.10 install colorama
+: 1681217112:0;pip install colorama
+: 1681218108:0;pip3.10 install tabulate
+: 1681218116:0;pip install tabulate
+: 1681219340:0;git pull
+: 1681219381:0;git config pull.rebase false
+: 1681219388:0;git pull
+: 1681220700:0;python
+: 1681220714:0;python lenet-mnist.py
+: 1681220729:0;python
+: 1681220789:0;pip install -U Pillow
+: 1681220850:0;python
+: 1681220894:0;cls
+: 1681220907:0;nv ~/.p10k.zsh
+: 1681220926:0;zsh
+: 1681220927:0;ls
+: 1681220929:0;cls
+: 1681220930:0;l
+: 1681220932:0;ll
+: 1681220934:0;clc
+: 1681220935:0;cls
+: 1681220936:0;ll
+: 1681220939:0;ls
+: 1681220945:0;cls
+: 1681220952:0;./lenet-mnist.py
+: 1681220958:0;python lenet-mnist.py
+: 1681220969:0;cls
+: 1681220975:0;python lenet-mnist.py --device cpu
+: 1681221083:0;python mlp-mnist.py --device cpu
+: 1681221174:0;nv mlp-mnist-6700HQ.txt
+: 1681221225:0;nv lenet-mnist-6700HQ.txt
+: 1681222873:0;nv nbody.py
+: 1681222911:0;python nbody.py 5000
+: 1681222920:0;python nbody.py 50000
+: 1681222936:0;time python nbody.py 50000
+: 1681222943:0;time python nbody.py 500000
+: 1681222954:0;time -h
+: 1681222980:0;time python nbody.py 50000000
+: 1681222986:0;htop
+: 1681223379:0;time python nbody.py 5000000
+: 1681225177:0;ln -s ~/pypy3.9-v7.3.11-linux64/bin/pypy ~/.local/bin/pypy
+: 1681225195:0;pypy --version
+: 1681225233:0;time pypy nbody.py 5000000
+: 1681225251:0;time pypy nbody.py 50000000
+: 1681226037:0;sudo ./Miniconda3-py310_23.1.0-1-Linux-x86_64.sh
+: 1681226048:0;./Miniconda3-py310_23.1.0-1-Linux-x86_64.sh
+: 1681226061:0;chmod +x Miniconda3-py310_23.1.0-1-Linux-x86_64.sh
+: 1681226066:0;./Miniconda3-py310_23.1.0-1-Linux-x86_64.sh
+: 1681226155:0;conda
+: 1681226158:0;miniconda
+: 1681226161:0;zsh
+: 1681226163:0;conda
+: 1681226166:0;conda 
+: 1681226284:0;conda list
+: 1681226305:0;conda 
+: 1681226387:0;conda env list
+: 1681226414:0;conda activate base
+: 1681226425:0;conda list
+: 1681226433:0;conda env list 
+: 1681226480:0;conda deactivate
+: 1681226481:0;ls
+: 1681226483:0;cls
+: 1681226488:0;conda env 
+: 1681226495:0;man conda
+: 1681226499:0;conda --help
+: 1681226506:0;conda search pypy
+: 1681227256:0;conda env list
+: 1681227270:0;conda activate base
+: 1681227280:0;conda list
+: 1681227285:0;conda list | fzf
+: 1681227394:0;conda deactivate
+: 1681227437:0;conda create --name env1 python=3.10
+: 1681227535:0;conda create --help
+: 1681227655:0;cls
+: 1681227660:0;conda env list
+: 1681227672:0;conda deactivate
+: 1681227701:0;conda create --name env2 python=3.10 --offline
+: 1681227746:0;conda create --name env3 python=3.6 --offline
+: 1681227768:0;conda activate env1
+: 1681227772:0;conda list
+: 1681227795:0;conda install colorama
+: 1681227821:0;conda install --help
+: 1681227840:0;conda install colorama numpy
+: 1681227864:0;conda install colorama
+: 1681227872:0;conda list
+: 1681227885:0;conda install --help
+: 1681227938:0;conda deactivate
+: 1681227941:0;conda activate env1
+: 1681227943:0;conda list
+: 1681227947:0;conda deactivate
+: 1681227951:0;conda list
+: 1681227954:0;conda env list
+: 1681227962:0;conda activate env2
+: 1681227965:0;conda list
+: 1681227996:0;conda install colorama
+: 1681228060:0;conda update conda
+: 1681228073:0;conda activate base
+: 1681228077:0;conda update conda
+: 1681228330:0;conda deactivate
+: 1681228331:0;cls
+: 1681228332:0;zsh
+: 1681228338:0;conda deactivate
+: 1681228353:0;conda activate base
+: 1681228360:0;python --version
+: 1681228426:0;conda info --envs\
+
+: 1681228446:0;zshconfig
+: 1681228460:0;zsh
+: 1681228464:0;zshconfig
+: 1681228511:0;echo $PATH | tr ":" "\n"
+: 1681228529:0;zsh
+: 1681228533:0;echo $PATH | tr ":" "\n"
+: 1681228558:0;python --version
+: 1681228562:0;pip
+: 1681228567:0;pip --version
+: 1681228577:0;python
+: 1681228623:0;conda activate env1
+: 1681228625:0;python
+: 1681228639:0;conda activate bae
+: 1681228641:0;conda activate base
+: 1681228646:0;python3.11
+: 1681228651:0;conda activate env1
+: 1681228654:0;python3.11
+: 1681228663:0;conda activate base
+: 1681228691:0;zsh
+: 1681228705:0;conda create -c conda-forge -n pypy pypy python=3.8
+: 1681229501:0;zsh
+: 1681229502:0;cls
+: 1681229519:0;time python "print(10)"
+: 1681229579:0;time python -c "print('hello world')"
+: 1681230495:0;sd
+: 1681230519:0;tree
+: 1681230525:0;find .
+: 1681231761:0;alacritty
+: 1681232539:0;.dotfiles
+: 1681232541:0;ls
+: 1681232546:0;git status
+: 1681233135:0;nvim
+: 1681233817:0;where stow 
+: 1681233821:0;stow
+: 1681233828:0;sudo apt install stow
+: 1681235991:0;cls
+: 1681236045:0;md .config/visual_studio/
+: 1681236046:0;tree
+: 1681236060:0;ll
+: 1681236077:0;md /.config/visual_studio/
+: 1681236090:0;man md 
+: 1681236094:0;man mkdir
+: 1681236113:0;md hi
+: 1681236114:0;l
+: 1681236121:0;tree -h
+: 1681236132:0;tree -hs
+: 1681236137:0;find .
+: 1681236143:0;cls
+: 1681236189:0;ls
+: 1681236191:0;ll
+: 1681236192:0;l
+: 1681236198:0;tree --help
+: 1681236236:0;tree -a
+: 1681236262:0;nv .
+: 1681236315:0;ls
+: 1681236317:0;l
+: 1681236321:0;tree -a
+: 1681236361:0;stow .config
+: 1681236373:0;ls
+: 1681236389:0;cd .con
+: 1681236393:0;cd .config
+: 1681236394:0;ls
+: 1681236400:0;l
+: 1681236440:0;ls
+: 1681236457:0;stow -D .config
+: 1681236460:0;ls
+: 1681236489:0;stow *
+: 1681236495:0;ls
+: 1681236635:0;stow -nv .config
+: 1681236664:0;stow -nv --adopt .config
+: 1681236712:0;stow --adopt -nv .config
+: 1681237847:0;l
+: 1681237857:0;l .config
+: 1681237867:0;l .config/visual_studio
+: 1681237878:0;stow -nv .
+: 1681237940:0;ls
+: 1681237950:0;cd .config
+: 1681237951:0;ls
+: 1681237995:0;stow -v .
+: 1681237998:0;ls
+: 1681238004:0;cd visual_studio
+: 1681238005:0;ls
+: 1681238014:0;git status
+: 1681238030:0;ls
+: 1681238035:0;l
+: 1681238047:0;rm -rf .config
+: 1681238048:0;ls
+: 1681238051:0;l
+: 1681238062:0;ls
+: 1681238069:0;cls
+: 1681238072:0;~
+: 1681238084:0;z cfg
+: 1681238093:0;cd .config
+: 1681238094:0;ls
+: 1681238146:0;stow --help
+: 1681238159:0;stow -R
+: 1681238170:0;stow -R .
+: 1681238175:0;ls
+: 1681238198:0;cd -D .config
+: 1681238205:0;stow  -D .config
+: 1681238257:0;stow -nv --adopt .
+: 1681238263:0;ls
+: 1681238273:0;md nvim
+: 1681238274:0;ls
+: 1681238279:0;stow -nv --adopt .
+: 1681238309:0;mv nvim .config/nvim
+: 1681238329:0;mv --help
+: 1681238382:0;md .config
+: 1681238383:0;ls
+: 1681238391:0;mv nvim .config/nvim
+: 1681238392:0;ls
+: 1681238393:0;l
+: 1681238399:0;tree -a
+: 1681238423:0;stow -nv --adopt .
+: 1681238439:0;stow -nv .
+: 1681238445:0;stow -nv .config
+: 1681238463:0;stow --help
+: 1681238560:0;ls
+: 1681238565:0;cd .config
+: 1681238568:0;cd nvim
+: 1681238577:0;touch test.txt
+: 1681238578:0;ls
+: 1681238589:0;stow -nv
+: 1681238595:0;stow -nv .
+: 1681238618:0;stow -nv --adopt .
+: 1681238642:0;stow -v .
+: 1681238645:0;ls
+: 1681238651:0;cd nvim
+: 1681238653:0;ls
+: 1681238881:0;nv sync-dotfiles.sh
+: 1681238922:0;chmod +x sync-dotfiles.sh
+: 1681238923:0;ls
+: 1681238933:0;./sync-dotfiles.sh
+: 1681238943:0;l
+: 1681239019:0;md bin
+: 1681239020:0;ls
+: 1681239039:0;mv sync-dotfiles.sh bin/sync-dotfiles.sh
+: 1681239041:0;l
+: 1681239054:0;bin/sync-dotfiles.sh
+: 1681239086:0;cd ..
+: 1681239097:0;cd .dotfiles
+: 1681239098:0;ls
+: 1681239478:0;cd lua
+: 1681239479:0;ls
+: 1681239499:0;cd ../
+: 1681239508:0;ls
+: 1681239534:0;l
+: 1681239540:0;cd .config
+: 1681239541:0;ls
+: 1681239551:0;rm -rf nvim
+: 1681239552:0;ls
+: 1681239559:0;l
+: 1681239711:0;mv ~/.config/nvim ~/.dotfiles/.config/nvim\
+
+: 1681239717:0;ls
+: 1681239739:0;l
+: 1681239742:0;tree -a
+: 1681239773:0;stow -nv .
+: 1681239793:0;stow -v .
+: 1681239798:0;ls
+: 1681239801:0;cd nvim
+: 1681239802:0;ls
+: 1681239811:0;rm test.txt
+: 1681239812:0;ls
+: 1681239815:0;cd lua
+: 1681239816:0;ls
+: 1681239820:0;nv
+: 1681239827:0;ls
+: 1681239844:0;git commit -m "added nvim config"
+: 1681239852:0;git add .
+: 1681239873:0;git commit -m "added nvim config"
+: 1681239880:0;git push
+: 1681239890:0;git status
+: 1681239908:0;git add .config
+: 1681239909:0;ls
+: 1681239912:0;git status
+: 1681239929:0;git add .config/nvim
+: 1681239930:0;ls
+: 1681239933:0;git status
+: 1681239944:0;git commit -a "nvim"
+: 1681239957:0;git commit -a -m "nvim"
+: 1681242059:0;cls
+: 1681242061:0;~
+: 1681242065:0;tmux 
+: 1681242085:0;tmux -list-sessions
+: 1681242091:0;tmux -list_server
+: 1681242104:0;tmux list_server
+: 1681242126:0;tmux list-sessions
+: 1681242131:0;tmux
+: 1681242139:0;tmux list-sessions
+: 1681242162:0;tmux list-servers
+: 1681242165:0;tmux list-server
+: 1681242305:0;tmux
+: 1681242318:0;tmux new-session -d
+: 1681242321:0;tmux list-sessions
+: 1681242460:0;tmux list-server
+: 1681242467:0;tmux list-sessions
+: 1681242469:0;tmux a
+: 1681242472:0;ls
+: 1681242480:0;tmux list-sessions
+: 1681242501:0;tmux kill-server
+: 1681242520:0;tmux
+: 1681242525:0;tmux list-sessions
+: 1681242553:0;tmux a
+: 1681242556:0;tmux list-sessions
+: 1681243152:0;tmux a
+: 1681243183:0;tmux list-sessions
+: 1681243233:0;cls
+: 1681243241:0;tmux kill-server
+: 1681243244:0;tmux a
+: 1681243252:0;tmux n
+: 1681243255:0;tmux 
+: 1681243273:0;cls
+: 1681243279:0;alacconfig
+: 1681243375:0;nv ~/.config/alacritty/dracula.yml 
+: 1681243433:0;zsh
+: 1681243435:0;cls
+: 1681243607:0;fzf
+: 1681243638:0;cd oh-my-tmux
+: 1681243639:0;l
+: 1681243660:0;nv .tmux.conf.local
+: 1681244427:0;tmux source-file tmux.conf
+: 1681244466:0;tmux source-file ~/oh-my-tmux/tmux.conf.local
+: 1681244474:0;cd oh-my-tmux
+: 1681244476:0;ls
+: 1681244477:0;l
+: 1681244493:0;tmux source-file ~/oh-my-tmux/.tmux.conf.local
+: 1681244499:0;tmux source-file ~/oh-my-tmux/.tmux.conf
+: 1681244562:0;tmux source-file ~/oh-my-tmux/.tmux.conf.local
+: 1681244564:0;tmux source-file ~/oh-my-tmux/.tmux.conf
+: 1681244959:0;tmux source-file ~/oh-my-tmux/.tmux.conf.local
+: 1681244968:0;tmux d
+: 1681244982:0;tmux
+: 1681244992:0;tmux list-sessions
+: 1681245363:0;cls
+: 1681245374:0;cd ~/.config/tmux
+: 1681245375:0;ls
+: 1681245382:0;nv tmux.conf.local
+: 1681245445:0;tmux source-file ~/.config/tmux/tmux.conf.local
+: 1681245455:0;tmux source ~/.config/tmux/tmux.conf.local
+: 1681245478:0;ls
+: 1681245483:0;cd ../
+: 1681245484:0;ls
+: 1681245507:0;cd tmux
+: 1681245833:0;tmux source ~/.config/tmux/tmux.conf
+: 1681245838:0;tmux source ~/.config/tmux/tmux.conf.local
+: 1681245846:0;nv tmux.conf.local
+: 1681245875:0;tmux source ~/.config/tmux/tmux.conf.local
+: 1681245880:0;tmux source ~/.config/tmux/tmux.conf
+: 1681246857:0;tmux kill-session
+: 1681246860:0;tmux a
+: 1681246958:0;cls
+: 1681247076:0;python3.11
+: 1681247123:0;conda activate base
+: 1681247125:0;python
+: 1681247258:0;tmux
+: 1681247260:0;cls
+: 1681247282:0;zshconfig
+: 1681247444:0;cd code
+: 1681247444:0;ls
+: 1681247449:0;sd
+: 1681247460:0;zsh
+: 1681247471:0;sd
+: 1681247497:0;pwd
+: 1681247502:0;zshconfig
+: 1681247523:0;zsh
+: 1681247526:0;~
+: 1681247530:0;cd code 
+: 1681247532:0;find .
+: 1681247603:0;find . --type f
+: 1681247608:0;find . -type f
+: 1681247614:0;find . -type d
+: 1681247618:0;find . -type d | fzf
+: 1681247632:0;sf
+: 1681247679:0;find . -type f | fzf
+: 1681247735:0;nv ./cpp/opengl_1/build/compile_commands.json
+: 1681247748:0;sf
+: 1681247756:0;sd
+: 1681247762:0;cd python
+: 1681247766:0;cd code 
+: 1681247769:0;cd python
+: 1681247770:0;ls
+: 1681247775:0;sf
+: 1681247785:0;sd
+: 1681247795:0;ls
+: 1681247798:0;cd ~
+: 1681247798:0;ls
+: 1681247811:0;cls
+: 1681249215:0;chmod +x sync-dotfiles.sh
+: 1681250643:0;tldr 
+: 1681250648:0;sudo apt install tldr
+: 1681250663:0;cls
+: 1681250665:0;ls
+: 1681250676:0;cd .dotfiles
+: 1681250677:0;ls
+: 1681250681:0;l
+: 1681250723:0;cd ~/.config/
+: 1681250724:0;l
+: 1681250733:0;rm visual_studio
+: 1681250735:0;l
+: 1681250764:0;cd ~
+: 1681250770:0;l
+: 1681250790:0;bash
+: 1681250894:0;l
+: 1681250902:0;stow -nv .
+: 1681250912:0;stow .
+: 1681250931:0;c;s
+: 1681250933:0;cls
+: 1681250941:0;git add .zshrc
+: 1681250942:0;;s
+: 1681250943:0;ls
+: 1681250958:0;git commit -m "added zshrc"
+: 1681250960:0;git status
+: 1681250978:0;git push
+: 1681251047:0;cls
+: 1681251064:0;tldr
+: 1681251068:0;tldr grep
+: 1681251073:0;tldr sed
+: 1681251077:0;tldr find
+: 1681251097:0;zsh
+: 1681251099:0;tldr find
+: 1681251102:0;tldr
+: 1681251119:0;tldr -u
+: 1681251150:0;tldr find
+: 1681251263:0;tmux
+: 1681251265:0;s
+: 1681251270:0;d
+: 1681251271:0;f
+: 1681251377:0;echo alacconfig
+: 1681251384:0;echo $alacconfig
+: 1681251398:0;alias | fzf
+: 1681251430:0;cd .dotfiles
+: 1681251436:0;cd .config
+: 1681251442:0;md alacritty
+: 1681251443:0;ls
+: 1681251451:0;cd .config
+: 1681251453:0;cd alacritty
+: 1681251454:0;l
+: 1681251512:0;mv alacritty.yml ~/.dotfiles/.config/alacritty/alacritty.yml
+: 1681251532:0;mv dracula.yml ~/.dotfiles/.config/alacritty/dracula.yml
+: 1681251541:0;l
+: 1681251565:0;stow -nv .
+: 1681251573:0;stow .
+: 1681251574:0;la
+: 1681251576:0;ls
+: 1681251590:0;git commit -m "added alacritty"
+: 1681251603:0;git add .
+: 1681251606:0;git commit -m "added alacritty"
+: 1681251613:0;git push
+: 1681251630:0;touch .gitignore
+: 1681251636:0;nv .gitignore
+: 1681251654:0;git add .
+: 1681251657:0;git status
+: 1681251676:0;git add .
+: 1681251699:0;git commit -m "gitignore"
+: 1681251702:0;git push
+: 1681251708:0;code .
+: 1681252266:0;cls
+: 1681252412:0;alacconfig
+: 1681252444:0;cd .config
+: 1681252445:0;l
+: 1681252654:0;stow -nv .
+: 1681252701:0;alacconfig
+: 1681252812:0;echo $SHELL
+: 1681252927:0;tmux d
+: 1681252940:0;tmux list-sessions
+: 1681252945:0;tmux kill-server
+: 1681252987:0;alacco
+: 1681252991:0;alacconfig
+: 1681253023:0;zsh --help
+: 1681253077:0;zsh
+: 1681253081:0;alacritty
+: 1681253095:0;alacconfig
+: 1681253127:0;alacritty
+: 1681253166:0;alacconfig
+: 1681253189:0;alacritty
+: 1681253198:0;cls
+: 1681253221:0;echo 2
+: 1681253239:0;cls
+: 1681253246:0;tmux list-sessions
+: 1681253283:0;echo "ho\
+"
+: 1681253285:0;cls
+: 1681253288:0;echo "ho\
+"
+: 1681253335:0;alacconfig
+: 1681253579:0;cls
+: 1681253833:0;sudo apt install xclip
+: 1681253903:0;curl cht.sh/python/uppercase
+: 1681253934:0;curl cht.sh/rust/uppercase
+: 1681254919:0;python
+: 1681255100:0;krita
+: 1681255110:0;bin/krita
+: 1681255117:0;where krita
+: 1681255124:0;where gimp
+: 1681255129:0;gimp
+: 1681255134:0;photogimp
+: 1681255991:0;ا
+: 1681256053:0;cd .config
+: 1681256057:0;cd tmux
+: 1681256066:0;nv tmux.conf.local
+: 1681258807:0;zsh
+: 1681262240:0;cd ~/code/python
+: 1681262241:0;ls
+: 1681262249:0;md docker_bench
+: 1681262251:0;ls
+: 1681262262:0;cd docker_bench
+: 1681262263:0;l
+: 1681262270:0;git clone git@github.com:dockersamples/example-voting-app.git
+: 1681262283:0;cd example-voting-app
+: 1681262288:0;cd vote
+: 1681262289:0;l
+: 1681262319:0;ls
+: 1681262327:0;cd result
+: 1681262328:0;ls
+: 1681262332:0;cat Docker
+: 1681262335:0;cat Dockerfile
+: 1681262357:0;ls
+: 1681262529:0;docker compose up\
+
+: 1681263899:0;nv gg.c
+: 1681264008:0;docker compose up\
+
+: 1681269167:0;cls
+: 1681270582:0;echo $0
+: 1681297505:0;tracerout google.com
+: 1681297512:0;traceroute google.com
+: 1681299732:0;cls
+: 1681299749:0;cd code 
+: 1681299752:0;cd python
+: 1681299758:0;tree -ash
+: 1681299770:0;tree -sh
+: 1681299779:0;cls
+: 1681299780:0;tree -sh
+: 1681299842:0;tree -sh --max-depth=1
+: 1681299856:0;tree -sh -l 2
+: 1681299861:0;tree -sh -l=2
+: 1681299867:0;tree -sh -L 2
+: 1681299872:0;tree -sh -L 1
+: 1681299916:0;du
+: 1681299927:0;du --summarize -h
+: 1681300022:0;python -m http.server 0.0.0.0:4532
+: 1681300042:0;cls
+: 1681300069:0;netstat -tnlp
+: 1681300073:0;netstat -tlnp
+: 1681300080:0;netstat -nlp
+: 1681300083:0;netstat -t
+: 1681300088:0;netstat -tnlp
+: 1681300124:0;man netstat
+: 1681300204:0;netstat --help
+: 1681300237:0;netstat -t
+: 1681300246:0;netstat -tn
+: 1681300257:0;netstat -t
+: 1681300327:0;netstat -tl
+: 1681300340:0;netstat -t
+: 1681300379:0;python -m http.server 0.0.0.0:4532cls
+: 1681300394:0;cls
+: 1681300407:0;python -m http.server 0.0.0.0 1234
+: 1681300432:0;python -m http.server 1234
+: 1681300555:0;netstat -t
+: 1681300565:0;netstat -tl
+: 1681300594:0;netstat -tln
+: 1681300600:0;netstat -tlp
+: 1681300615:0;netstat -t
+: 1681300622:0;netstat -tp
+: 1681300673:0;netstat -tpl
+: 1681300682:0;netstat
+: 1681300728:0;netstat --help
+: 1681300778:0;netstat -a
+: 1681300786:0;netstat -at
+: 1681300805:0;netstat -pat
+: 1681300827:0;netstat -plat
+: 1681300834:0;netstat -patl
+: 1681300842:0;netstat -patn
+: 1681300848:0;netstat -pat
+: 1681300880:0;ps -a | grep python
+: 1681300898:0;sudo kill --help
+: 1681300922:0;man kill
+: 1681300951:0;kill -l
+: 1681301109:0;ps aux
+: 1681301111:0;ps
+: 1681301118:0;ps --help
+: 1681301131:0;ps aux
+: 1681301134:0;ps au
+: 1681301136:0;ps a
+: 1681301143:0;ps x
+: 1681301150:0;ps aux
+: 1681301167:0;ps aux | fzf
+: 1681301357:0;ps aux | grep -c 
+: 1681301363:0;ps aux | grep -c "python"
+: 1681301368:0;ps aux | grep -c "*"
+: 1681301372:0;ps aux | grep -c ""
+: 1681301378:0;ps aux | grep -c "."
+: 1681301394:0;ps aux | egrep -c "."
+: 1681301628:0;cls
+: 1681301634:0;alacconfig
+: 1681301677:0;cls
+: 1681302609:0;cd code/web/favourite-youtube-channels-next
+: 1681302611:0;cls
+: 1681302647:0;ls
+: 1681302650:0;l
+: 1681302664:0;git status
+: 1681302685:0;nv .
+: 1681302717:0;cd code/web/favourite-youtube-channels-next
+: 1681302720:0;nvim .
+: 1681302755:0;npm start
+: 1681302813:0;htop
+: 1681302841:0;python
+: 1681310213:0;where virtualbox
+: 1681310222:0;sudo apt remove --purge virtualbox
+: 1681310227:0;where virtualbox
+: 1681310243:0;sudo apt remove virtualbox
+: 1681310249:0;where virtualbox
+: 1681310274:0;sudo apt-get remove --purge virtualbox 
+: 1681310293:0;sudo rm ~/"VirtualBox VMs" -Rf\
+sudo rm ~/.config/VirtualBox/ -Rf
+: 1681310303:0;where virtualbox
+: 1681310335:0;sudo rm ~/"VirtualBoxVMs" -Rf
+: 1681310357:0;sudo rm ~/.config/VirtualBox -Rf
+: 1681310378:0;sudo ps aux | grep -i "vbox"
+: 1681310384:0;pkill
+: 1681310390:0;sudo pkill VBox*\
+
+: 1681310426:0;flatpak list --all
+: 1681310443:0;virtualbox
+: 1681311060:0;gsettings set org.gnome.desktop.wm.preferences titlebar-font 'Ubuntu Bold 11'\
+
+: 1681311067:0;gsettings set org.gnome.desktop.wm.preferences titlebar-font 'Ubuntu Bold 6'\
+
+: 1681311087:0;gsettings set org.gnome.desktop.wm.preferences titlebar-font 'Ubuntu 6'\
+
+: 1681311100:0;gsettings set org.gnome.desktop.wm.preferences titlebar-font 'Ubuntu 4'\
+
+: 1681311116:0;gsettings set org.gnome.desktop.wm.preferences titlebar-font 'Ubuntu 5'\
+
+: 1681311585:0;cls
+: 1681311586:0;dig
+: 1681311603:0;dig varzesh3.com
+: 1681311617:0;dig jemyoung.com
+: 1681312206:0;docker
+: 1681312918:0;docker pull ubuntu:bionic
+: 1681312958:0;docker --help
+: 1681313010:0;sudo systemctl start docker
+: 1681313029:0;sudo service docker start
+: 1681313036:0;docker
+: 1681313193:0;docker pull node:12-stretch
+: 1681313209:0;docker pull node:12-alpine
+: 1681313246:0;docker pull nginx:1.17
+: 1681315049:0;cls
+: 1681315086:0;docker --help
+: 1681315097:0;docker run --help
+: 1681315122:0;ls
+: 1681315124:0;cls
+: 1681315136:0;docker run -it --name docker-host --rm --privileged ubuntu:bionic
+: 1681315234:0;ps aux
+: 1681315338:0;cat /etc/issue
+: 1681317337:0;docker ps --all
+: 1681317383:0;docker list 
+: 1681317416:0;docker images
+: 1681317437:0;docker run --help
+: 1681317511:0;docker run --name my_alpine_container alpine
+: 1681317515:0;docker ps
+: 1681317542:0;docker containers
+: 1681317549:0;docker ps
+: 1681317589:0;docker ps --all
+: 1681317620:0;docker start my_alpine_container
+: 1681317624:0;docker ps --all
+: 1681317645:0;docker start -dit my_alpine_container
+: 1681317655:0;docker start -it my_alpine_container
+: 1681317669:0;docker start -i my_alpine_container
+: 1681317673:0;docker ps --all
+: 1681317713:0;docker start -i my_alpine_container exec sh
+: 1681317781:0;docker run -it --rm  --name my_alpine_container alpine
+: 1681317797:0;docker run -it --rm  --name my_alpine_container2 alpine
+: 1681317820:0;docker run -dit --rm  --name my_alpine_container2 alpine
+: 1681317828:0;docker ps --all
+: 1681317862:0;docker --help
+: 1681317937:0;docker attach ffe280ae265
+: 1681317947:0;docker ps --all
+: 1681317954:0;docker --help
+: 1681317967:0;docker rm my_alpine_container
+: 1681317968:0;ls
+: 1681317972:0;docker ps
+: 1681317975:0;docker ps --all
+: 1681317977:0;ls
+: 1681317978:0;cls
+: 1681319036:0;docker run node:12-stretch
+: 1681319044:0;docker ps --all
+: 1681319065:0;docker run node:12-stretch
+: 1681319070:0;docker ps --all
+: 1681319087:0;docker rm 0479559b98fc
+: 1681319095:0;docker rm 2cf492173a4f
+: 1681319107:0;docker rm f7f5afb3b614
+: 1681319110:0;docker ps --all
+: 1681319136:0;docker run --rm node:12-stretch
+: 1681319138:0;docker ps --all
+: 1681319202:0;docker run -it --rm node:12-stretch
+: 1681319308:0;docker ps --all
+: 1681319316:0;docker run -it --rm node:12-stretch bash
+: 1681320772:0;docker images
+: 1681320777:0;docker image list
+: 1681320995:0;sudo apt install lynx
+: 1681321031:0;apt list
+: 1681321042:0;apt list --help
+: 1681321062:0;apt list | fzf
+: 1681321094:0;ls
+: 1681321107:0;lynx google.com
+: 1681321146:0;lynx varzesh3.com
+: 1681321166:0;lynx gholamrezadar.ir
+: 1681321189:0;lynx https://gholamrezadar.ir
+: 1681321272:0;cd .dotfiles
+: 1681321274:0;l
+: 1681321281:0;tree -sh -L 1
+: 1681321283:0;tree -sh -L 2
+: 1681321297:0;tree -ash -L 3
+: 1681321299:0;tree -ash -L 2
+: 1681321301:0;tree -ash -L 1
+: 1681321303:0;tree -ash -L 2
+: 1681321324:0;cd .config
+: 1681321325:0;l
+: 1681321333:0;cd tmux
+: 1681321334:0;l
+: 1681321348:0;mv --help
+: 1681321369:0;l
+: 1681321420:0;cd ../
+: 1681321447:0;mv tmux ~/.dotfiles/.config
+: 1681321456:0;l tmux
+: 1681321471:0;cd ~/.dotfiles/.config
+: 1681321472:0;l
+: 1681321475:0;cd tmux
+: 1681321476:0;l
+: 1681321488:0;ls
+: 1681321494:0;cd tmux & l
+: 1681321501:0;cd tmux && l
+: 1681321575:0;cp "~/oh-my-tmux/.tmux.conf" "~/.dotfiles/.config/tmux/tmux.conf2"
+: 1681321613:0;cp ~/oh-my-tmux/.tmux.conf ~/.dotfiles/.config/tmux/tmux.conf2
+: 1681321614:0;l
+: 1681321643:0;mv tmux.conf tmux.conf.bak
+: 1681321644:0;l
+: 1681321657:0;mv tmux.conf2 tmux.conf
+: 1681321657:0;ls
+: 1681321660:0;l
+: 1681321676:0;cd ~/.dotfiles
+: 1681321677:0;l
+: 1681321683:0;stow -nv .
+: 1681321694:0;stow .
+: 1681321697:0;ls
+: 1681321709:0;git commit -m "add tmux conf"
+: 1681321717:0;git add .
+: 1681321719:0;git commit -m "add tmux conf"
+: 1681321734:0;git status
+: 1681321740:0;git push
+: 1681321759:0;chrome
+: 1681325171:0;docker images
+: 1681409149:0;csl
+: 1681409150:0;cls
+: 1681416632:0;neofetch
+: 1681460188:0;z cd
+: 1681460191:0;z code
+: 1681460203:0;cd pyth
+: 1681460207:0;cd python
+: 1681460219:0;z web
+: 1681460222:0;ls
+: 1681460235:0;cd favourite-youtube-channels-next
+: 1681460238:0;l
+: 1681460263:0;code .
+: 1681460341:0;nv .
+: 1681460410:0;nv pages/index.tsx
+: 1681460430:0;code pages/index.tsx
+: 1681460575:0;nv pages/index.tsx
+: 1681461163:0;code pages/index.tsx
+: 1681461267:0;nv pages/index.tsx
+: 1681461703:0;code pages/index.tsx
+: 1681461724:0;nv pages/index.tsx
+: 1681461921:0;code pages/index.tsx
+: 1681461984:0;nv pages/index.tsx
+: 1681462052:0;nano pages/index.tsx
+: 1681462086:0;gedit pages/index.tsx
+: 1681462192:0;code 
+: 1681462855:0;csl
+: 1681462856:0;cls
+: 1681462857:0;ls
+: 1681462858:0;l
+: 1681462859:0;~
+: 1681462861:0;cls
+: 1681464670:0;wmctrl
+: 1681464776:0;xdottools
+: 1681464785:0;xdotool
+: 1681464789:0;xdotools
+: 1681464925:0;xdpyinfo
+: 1681464932:0;xdpyinfo | grep dimensions
+: 1681464967:0;xdpyinfo | grep dimensions | awk '{print $2}'
+: 1681464972:0;xdpyinfo | grep dimensions | awk '{print $1}'
+: 1681464983:0;xdpyinfo | grep dimensions | awk '{print $1,$2}'
+: 1681464991:0;xdpyinfo | grep dimensions | awk '{print $1,hi,$2}'
+: 1681465000:0;xdpyinfo | grep dimensions | awk '{print $1$2}'
+: 1681465013:0;xdpyinfo | grep dimensions | awk '{print $0}'
+: 1681465016:0;xdpyinfo | grep dimensions | awk '{print $3}'
+: 1681465438:0;command wmctrl
+: 1681465464:0;if command wmctrl then echo "not found" fi\
+
+: 1681465502:0;if command wmctrl\
+\
+then \
+echo "not found"\
+fi
+: 1681465513:0;cls
+: 1681465550:0;cd .dotfiles
+: 1681465551:0;l
+: 1681465554:0;cd bin
+: 1681465555:0;ls
+: 1681465588:0;nv load-workspace-1.sh
+: 1681465658:0;ls
+: 1681465664:0;z bin
+: 1681465666:0;ls
+: 1681465668:0;cl
+: 1681465668:0;cls
+: 1681465671:0;l
+: 1681465913:0;chmod +x load-workspace-1.sh
+: 1681465918:0;l
+: 1681465920:0;ll
+: 1681465928:0;l
+: 1681465932:0;ll
+: 1681465938:0;cd bin
+: 1681465939:0;ll
+: 1681466276:0;echo $PATH
+: 1681466280:0;echo $PATH | tr ":" "\n"
+: 1681466296:0;where cls
+: 1681466299:0;where clear
+: 1681466335:0;which clear
+: 1681466354:0;conda deactivate
+: 1681466356:0;where clear
+: 1681466362:0;which clear
+: 1681466456:0;l
+: 1681466463:0;cd .
+: 1681466467:0;cd ..
+: 1681466488:0;l
+: 1681466490:0;cls
+: 1681466490:0;l
+: 1681466493:0;cls
+: 1681466493:0;ll
+: 1681466502:0;./load-workspace-1.sh
+: 1681466661:0;command ls
+: 1681466665:0;command -v ls
+: 1681466788:0;cls
+: 1681466791:0;where cls
+: 1681466799:0;cls
+: 1681466806:0;clls
+: 1681466832:0;command cls
+: 1681466840:0;command -v cls
+: 1681466870:0;command clear
+: 1681466877:0;command -v clear
+: 1681466887:0;command -v clears
+: 1681466892:0;where clear
+: 1681466897:0;which clear
+: 1681466898:0;which clears
+: 1681466909:0;which cls
+: 1681466923:0;command cls
+: 1681466931:0;command -v cls
+: 1681466961:0;command cls
+: 1681467020:0;command cls &> /dev/null
+: 1681467027:0;command -v cls &> /dev/null
+: 1681467242:0;cls
+: 1681467249:0;./load-workspace-1.sh
+: 1681467425:0;./load-workspace-1.sh\\
+
+: 1681467447:0;./load-workspace-1.sh\
+
+: 1681467471:0;./load-workspace-1.sh
+: 1681467494:0;sudo apt install wmctrl
+: 1681467503:0;cls
+: 1681467510:0;wmctrl
+: 1681467554:0;wmctrl -m
+: 1681467556:0;wmctrl -l
+: 1681467923:0;wmctrl -r "Alacritty" -t 2 -b add,maximized_vert,maximized_horz\
+
+: 1681467962:0;alacritty &
+: 1681467988:0;cls
+: 1681467992:0;alacritty
+: 1681468025:0;wmctrl -r "alacritty" -t 2 -b add,maximized_vert,maximized_horz\
+
+: 1681468506:0;cp load-workspace-1.sh ~/Desktop/load-workspace-1.sh
+: 1681468560:0;ln -s load-workspace-1.sh ~/Desktop/load-workspace-1.sh
+: 1681468577:0;rm ~/Desktop/load-workspace-1.sh
+: 1681468579:0;ln -s load-workspace-1.sh ~/Desktop/load-workspace-1.sh
+: 1681468584:0;ls ~/Desktop
+: 1681468586:0;cls
+: 1681468590:0;l
+: 1681468610:0;rm ~/Desktop/load-workspace-1.sh
+: 1681468632:0;pwd
+: 1681468642:0;${pwd}
+: 1681468645:0;echo ${pwd}
+: 1681468653:0;echo $(pwd)
+: 1681468659:0;echo $(pwd)fdsf
+: 1681468675:0;ln -s $(pwd)load-workspace-1.sh ~/Desktop/load-workspace-1.sh
+: 1681468680:0;l ~/Desktop
+: 1681468704:0;rm ~/Desktop/load-workspace-1.sh
+: 1681468740:0;ln -s $(pwd)/load-workspace-1.sh ~/Desktop/load-workspace-1.sh
+: 1681468743:0;l ~/Desktop
+: 1681468760:0;./load-workspace-1.sh
+: 1681468775:0;command wmctrl
+: 1681468786:0;bash
+: 1681468793:0;ls
+: 1681468797:0;./load-workspace-1.sh
+: 1681468847:0;if ! command wmctrl &> /dev/null; then\
+echo $(pwd)fdsf\
+fi
+: 1681468868:0;if command wmctrl wmctrl &> /dev/null; then\
+echo $(pwd)fdsf\
+fi
+: 1681468892:0;if command wmctrl wmctrl wmctrl &> /dev/null; then\
+echo $(pwd)fdsf\
+fi
+: 1681468901:0;!
+: 1681468931:0;command
+: 1681468933:0;command ds 
+: 1681468940:0;command dssds
+: 1681468944:0;! command dssds
+: 1681468964:0;! ( command dssds)
+: 1681468984:0;./load-workspace-1.sh
+: 1681469020:0;! (command wmctrl &> /dev/null)
+: 1681469029:0;(command wmctrl &> /dev/null)
+: 1681469055:0;command wmctrl
+: 1681469069:0;command wmctrll
+: 1681469078:0;which wmctrl
+: 1681469085:0;command wmctrll
+: 1681469094:0;command wmctrl
+: 1681469102:0;command -v wmctrl
+: 1681469107:0;command -v wmctrls
+: 1681469123:0;./load-workspace-1.sh
+: 1681469211:0;brave-browser
+: 1681469215:0;brave
+: 1681469219:0;./brave
+: 1681469229:0;locate brave-browser
+: 1681469288:0;/var/lib/flatpak/app/com.brave.Browser/x86_64/stable/3142f88895f153627b7f1478ea753d1406070d142e795060c8365a1684b6e06d/files/brave/brave-browser
+: 1681469320:0;/var/lib/flatpak/app/com.brave.Browser/x86_64/stable/3142f88895f153627b7f1478ea753d1406070d142e795060c8365a1684b6e06d/files/brave/cron/brave-browser
+: 1681469448:0;flatpak list
+: 1681469463:0;flatpak list | grep brave
+: 1681469487:0;flatpak list | grep brave | awk '{print $2}\
+'
+: 1681469498:0;flatpak list | grep brave | awk '{print $3}\
+'
+: 1681469509:0;com.brave.Browser
+: 1681469514:0;flatpak run com.brave.Browser
+: 1681469630:0;./load-workspace-1.sh
+: 1681469878:0;google-chrome --new-window https://www.google.com --class=MyCustomClass1
+: 1681469960:0;flatpak run org.brave.Browser --new-window https://www.chat.openai.com
+: 1681469969:0;flatpak run com.brave.Browser --new-window https://www.chat.openai.com
+: 1681469983:0;flatpak run com.brave.Browser --new-window https://www.chat.openai.org
+: 1681470016:0;flatpak run com.brave.Browser --new-window https://chat.openai.com/
+: 1681470126:0;./load-workspace-1.sh
+: 1681470247:0;wmctrl -r MyCustomClass1 -t 3
+: 1681470265:0;google-chrome --new-window https://www.google.com --class=MyCustomClass1 &
+: 1681470295:0;wmctrl -r MyCustomClass1 -t 3
+: 1681470306:0;wmctrl -x -r MyCustomClass1 -t 3
+: 1681470326:0;google-chrome --new-window https://www.google.com --class=MyCustomClass1
+: 1681470363:0;wmctrl -x -r MyCustomClass1 -t 3
+: 1681470373:0;wmctrl -x -r "MyCustomClass1" -t 3
+: 1681470475:0;wmctrl -a chrome
+: 1681470508:0;wmctrl -pGl
+: 1681470621:0;wmctrl -pGlx
+: 1681470675:0;wmctrl -xa MyCustomClass2
+: 1681470691:0;google-chrome --new-window https://www.google.com --class=MyCustomClass5
+: 1681470696:0;wmctrl -pGlx
+: 1681470767:0;wmctrl -r chrome -t 3
+: 1681470889:0;flatpak run com.brave.Browser --new-window https://chat.openai.com/ --class=MyCustomClass9
+: 1681470906:0;wmctrl -pGlx
+: 1681471002:0;alacritty
+: 1681471015:0;cls
+: 1681471025:0;alacritty
+: 1681471049:0;tmux detach
+: 1681471062:0;cls
+: 1681471307:0;tmux kill-sessions
+: 1681471309:0;tmux kill-session
+: 1681471426:0;wmctrl -pGlx
+: 1681471477:0;wmctrl -r brave -t 2
+: 1681471538:0;wmctrl -r brave -t 2 -b add,maximized_vert,maximized_horz
+: 1681471568:0;man wmctrl
+: 1681471704:0;wmctrl -r brave -b add,maximized_vert,maximized_horz
+: 1681471930:0;echo -e '\a'
+: 1681471947:0;echo -e '\007'
+: 1681471949:0;echo -e '\a'
+: 1681471950:0;echo -e '\007'
+: 1681471975:0;printf '\a'
+: 1681471989:0;tput bel
+: 1681472005:0;speaker-test -t sine -f 1000 -l 1 & sleep .2 && kill -9 $!
+: 1681472015:0;speaker-test -t sine -f 5000 -l 1 & sleep .2 && kill -9 $!
+: 1681472021:0;speaker-test -t sine -f 200 -l 1 & sleep .2 && kill -9 $!
+: 1681472030:0;speaker-test -t sine -f 200 -l 0.3 & sleep .2 && kill -9 $!
+: 1681472037:0;speaker-test -t sine -f 200 -l 0.3 & sleep .1 && kill -9 $!
+: 1681472044:0;speaker-test -t sine -f 400 -l 0.3 & sleep .1 && kill -9 $!
+: 1681472142:0;ps aux
+: 1681472154:0;ps aux | grep speaker
+: 1681472164:0;pkill speaker
+: 1681472169:0;pkill --help
+: 1681472197:0;ps aux | grep speaker
+: 1681472361:0;cls
+: 1681472574:0;tmuxconfig
+: 1681472588:0;cd .dotfiles
+: 1681472594:0;cd .cong
+: 1681472598:0;cd .config
+: 1681472600:0;l
+: 1681472604:0;cd tmux
+: 1681472605:0;l
+: 1681472618:0;nv tmux.conf.local
+: 1681473380:0;cls
+: 1681473386:0;ifconfig
+: 1681473419:0;ls
+: 1681473420:0;l
+: 1681473444:0;cd ~
+: 1681473445:0;ls
+: 1681473477:0;cd code/web
+: 1681473627:0;ruby
+: 1681473632:0;sudo apt install ruby
+: 1681474606:0;apt install rubyls
+: 1681474607:0;ls
+: 1681474609:0;l
+: 1681474614:0;cd ~
+: 1681474614:0;l
+: 1681548818:0;ls
+: 1681548821:0;pwd
+: 1681548833:0;sasss
+: 1681548874:0;ls
+: 1681548880:0;cls
+: 1681548881:0;l
+: 1681548886:0;ls
+: 1681548958:0;cls
+: 1681549008:0;ls
+: 1681579491:0;cd coed
+: 1681579495:0;cd code/python
+: 1681579496:0;ls
+: 1681579503:0;cat a.py
+: 1681579510:0;nv a.py
+: 1681579537:0;python
+: 1681579632:0;l
+: 1681579638:0;ll
+: 1681579651:0;cd __pycache__
+: 1681579652:0;l
+: 1681579659:0;cat a.cpython-310.pyc
+: 1681579669:0;nv a.cpython-310.pyc
+: 1681580454:0;ulimit -s
+: 1681581841:0;cd ~/code/cpp
+: 1681581842:0;l
+: 1681581847:0;cd opengl_1
+: 1681581847:0;l
+: 1681581858:0;nv .
+: 1681582175:0;du
+: 1681582184:0;du --summarize -h
+: 1681582198:0;du --summarize
+: 1681582205:0;cd code
+: 1681582209:0;du --summarize -h
+: 1681582283:0;cd cpp
+: 1681582283:0;ls
+: 1681582297:0;git push clone --recursive https://github.com/Polytonic/Glitter
+: 1681582311:0;git clone --recursive https://github.com/Polytonic/Glitter
+: 1681582852:0;l
+: 1681582867:0;rm -rf Glitter
+: 1681582868:0;l
+: 1681588066:0;cd Glitter
+: 1681588067:0;l
+: 1681588070:0;cd Build
+: 1681588072:0;l
+: 1681588083:0;make ..
+: 1681588097:0;cmake ..
+: 1681588116:0;l
+: 1681588118:0;ll
+: 1681588352:0;l
+: 1681588358:0;cmake ..
+: 1681588860:0;/home/ghd/code/cpp/Glitter/build/Glitter/Glitter
+: 1681594345:0;z coo
+: 1681594347:0;z cpp
+: 1681594347:0;ls
+: 1681594352:0;cd cmake\ tutorial
+: 1681594353:0;l
+: 1681594367:0;make --version
+: 1681594375:0;cmake --version
+: 1681594760:0;md build
+: 1681594763:0;cd build
+: 1681594808:0;cmake -h
+: 1681594820:0;cmake ..
+: 1681594869:0;l
+: 1681595000:0;make
+: 1681595002:0;l
+: 1681595007:0;./out
+: 1681595166:0;"/home/ghd/code/cpp/cmake tutorial/build/out"
+: 1681633244:0;nvim .
+: 1681633343:0;ls
+: 1681633347:0;cd ../
+: 1681633348:0;l
+: 1681633354:0;cd ../
+: 1681633355:0;ls
+: 1681633371:0;md cmake_official_tutorial
+: 1681633376:0;cd cmake_official_tutorial
+: 1681633377:0;ls
+: 1681633381:0;cl
+: 1681633382:0;scls
+: 1681633382:0;cls
+: 1681633383:0;l
+: 1681633404:0;tldr curl
+: 1681633465:0;tldr wget
+: 1681633518:0;wget https://cmake.org/cmake/help/latest/_downloads/b8a65b498d06de3ba4a7dc1199af2298/cmake-3.26.3-tutorial-source.zip
+: 1681633548:0;tar zxvf cmake-3.26.3-tutorial-source.zip
+: 1681633565:0;unzip
+: 1681633572:0;unzip cmake-3.26.3-tutorial-source.zip
+: 1681633577:0;l
+: 1681633582:0;cd cmake-3.26.3-tutorial-source
+: 1681633583:0;l
+: 1681633587:0;cd ../
+: 1681633588:0;l
+: 1681633599:0;rm cmake-3.26.3-tutorial-source.zip
+: 1681633600:0;ls
+: 1681633639:0;cd cmake-3.26.3-tutorial-source
+: 1681633639:0;l
+: 1681633642:0;cls
+: 1681633642:0;l
+: 1681633656:0;cat README.txt
+: 1681633667:0;cd Step
+: 1681633669:0;cd Step1
+: 1681633670:0;l
+: 1681633671:0;cls
+: 1681633672:0;l
+: 1681633744:0;pwd
+: 1681633779:0;where tmuxconfig
+: 1681633784:0;which tmuxconfig
+: 1681633819:0;nv ~/.dotfiles/.config/tmux/tmux.conf.local
+: 1681633944:0;pwd
+: 1681633962:0;cd /home/ghd/code/cpp/cmake_official_tutorial/cmake-3.26.3-tutorial-source/Step1
+: 1681633962:0;l
+: 1681633964:0;cls
+: 1681633965:0;l
+: 1681633970:0;ls
+: 1681633986:0;nv .
+: 1681634227:0;cd ../Step2
+: 1681634228:0;l
+: 1681634234:0;nv .
+: 1681634363:0;cd ../Step2
+: 1681634364:0;l
+: 1681634369:0;tldr cmake
+: 1681634434:0;l
+: 1681634436:0;cls
+: 1681634436:0;l
+: 1681634449:0;cat CMakeLists.txt
+: 1681634481:0;cargo install bat
+: 1681634541:0;fg
+: 1681634576:0;bg
+: 1681634756:0;bat
+: 1681634761:0;cls
+: 1681634762:0;l
+: 1681634765:0;bat CMakeLists.txt
+: 1681634839:0;md build
+: 1681634841:0;cd build
+: 1681634851:0;cmake ..
+: 1681634853:0;l
+: 1681634870:0;bat TutorialConfig.h
+: 1681634947:0;cmake --build .
+: 1681634949:0;l
+: 1681634955:0;./Tutorial
+: 1681634961:0;./Tutorial 23
+: 1681634966:0;./Tutorial 16
+: 1681635207:0;nvimconfig
+: 1681635583:0;$ curl -LO https://github.com/BurntSushi/ripgrep/releases/download/13.0.0/ripgrep_13.0.0_amd64.deb\
+$ sudo dpkg -i ripgrep_13.0.0_amd64.deb
+: 1681635596:0;curl -LO https://github.com/BurntSushi/ripgrep/releases/download/13.0.0/ripgrep_13.0.0_amd64.deb\
+sudo dpkg -i ripgrep_13.0.0_amd64.deb
+: 1681635613:0;rg
+: 1681635618:0;rg lua
+: 1681635625:0;z code
+: 1681635630:0;rg tsx
+: 1681635639:0;rg .py
+: 1681635650:0;rg *.py
+: 1681635659:0;rg '.py\
+'
+: 1681635664:0;rg '.py'\
+'\
+\
+\
+
+: 1681635668:0;rg '.py'\
+\
+\
+
+: 1681635671:0;cls
+: 1681635727:0;cd ../Step3
+: 1681635729:0;l
+: 1681635740:0;nv .
+: 1681636002:0;cd ../Step3
+: 1681636005:0;l
+: 1681636015:0;cd ../../Step3
+: 1681636017:0;ls
+: 1681636020:0;md build
+: 1681636023:0;cd build
+: 1681636024:0;l
+: 1681636030:0;cmake ..
+: 1681636035:0;cmake --build .
+: 1681636090:0;l
+: 1681636095:0;bat Tutorial
+: 1681636100:0;bat TutorialConfig.h
+: 1681636126:0;ls MathFunctions
+: 1681636473:0;where ls 
+: 1681636478:0;which ls 
+: 1681636503:0;cd /
+: 1681636504:0;l
+: 1681636716:0;cd home
+: 1681636717:0;l
+: 1681637445:0;z cpp
+: 1681637450:0;cd Glitter
+: 1681637451:0;l
+: 1681637484:0;nv
+: 1681637489:0;nv .
+: 1681637688:0;ll
+: 1681637707:0;bat CMakeLists.txt
+: 1681637814:0;z Glitter
+: 1681637816:0;l
+: 1681637823:0;cmake --help-variable-list
+: 1681637905:0;cmake-gui
+: 1681637996:0;sudo apt-get install cmake-qt-gui
+: 1681638029:0;cd ..
+: 1681638030:0;l
+: 1681638056:0;tar zxvf Glitter.tar.gz Glitter2
+: 1681638080:0;tldr tar
+: 1681638176:0;tar xzf Glitter.tar.gz --directory Glitter2
+: 1681638185:0;md Glitter2
+: 1681638186:0;tar xzf Glitter.tar.gz --directory Glitter2
+: 1681638200:0;cd Glitter2
+: 1681638201:0;l
+: 1681638204:0;cls
+: 1681638209:0;cd Glitter
+: 1681638210:0;l
+: 1681638219:0;ll
+: 1681638237:0;ls Build
+: 1681638246:0;nv .
+: 1681642770:0;/home/ghd/code/cpp/Glitter/build/Glitter/Glitter
+: 1681643928:0;hash --help
+: 1681643933:0;hash -h
+: 1681643938:0;tldr hash
+: 1681643943:0;man hash
+: 1681644766:0;/home/ghd/code/cpp/Glitter/build/Glitter/Glitter
+: 1681723226:0;nvim .
+: 1681735337:0;git config pull.rebase false
+: 1681736067:0;du --summarize -h
+: 1681736071:0;l
+: 1681736111:0;l -S
+: 1681739891:0;nv 
+: 1681740187:0;cls
+: 1681753780:0;l
+: 1681753794:0;tmux kill-session
+: 1681753803:0;ls
+: 1681753804:0;nvim .
+: 1681753850:0;ls
+: 1681753851:0;l
+: 1681753875:0;nvim .
+: 1681753893:0;z Glitter
+: 1681753894:0;l
+: 1681753903:0;cd Glitter
+: 1681753904:0;l
+: 1681753910:0;code .
+: 1681753924:0;ll
+: 1681753925:0;cd ../
+: 1681753927:0;l
+: 1681753931:0;code .
+: 1681753950:0;/home/ghd/code/cpp/Glitter/build/Glitter/Glitter
+: 1681766785:0;cmatrix
+: 1681776361:0;python
+: 1681776931:0;python -u "/home/ghd/code/python/ghdtimer/test_ghdtimer.py"
+: 1681776938:0;omz update
+: 1681776944:0;cls
+: 1681777179:0;python -u "/home/ghd/code/python/ghdtimer/test_ghdtimer.py"
+: 1681777517:0;pytest
+: 1681777534:0;pip install pytest
+: 1681777550:0;pytest
+: 1681777732:0;python setup.py sdist bdist_wheel
+: 1681777844:0;pip install twine
+: 1681778106:0;ls
+: 1681778108:0;ls dist
+: 1681778117:0;twine upload dist/*
+: 1681778201:0;python setup.py sdist bdist_wheel
+: 1681778204:0;twine upload dist/*
+: 1681778352:0;python setup.py sdist bdist_wheel
+: 1681778356:0;twine upload dist/*
+: 1681778625:0;z python
+: 1681778633:0;md CLIP_test
+: 1681778635:0;ls
+: 1681778638:0;cd CLIP_test
+: 1681778648:0;nv clip_test.py
+: 1681779016:0;python setup.py sdist bdist_wheel
+: 1681779076:0;twine upload dist/*
+: 1681779309:0;python setup.py sdist bdist_wheel
+: 1681779316:0;twine upload dist/*
+: 1681823058:0;neofetch
+: 1681829301:0;ipython
+: 1681835480:0;docker run -it --rm node:12-stretch bash
+: 1681835519:0;docker ps --all
+: 1681835533:0;docker run -dit --rm node:12-stretch bash
+: 1681835549:0;docker ps --all
+: 1681835575:0;docker attach practical_cray
+: 1681835600:0;docker ps --all
+: 1681835925:0;docker pull openjdk
+: 1681836231:0;docker pull openjdk:21-slim-buster
+: 1681836344:0;pingv
+: 1681836392:0;watch pingv
+: 1681836411:0;watch ping varzesh3.com
+: 1681836489:0;pingv
+: 1681836496:0;docker pull openjdk:21-slim-buster
+: 1681837500:0;z code
+: 1681837503:0;cd web
+: 1681837504:0;ls
+: 1681837511:0;md docker_test
+: 1681837512:0;ls
+: 1681837513:0;cd docker_test
+: 1681837515:0;ls
+: 1681837521:0;cls
+: 1681837534:0;md src
+: 1681837544:0;touch src/index.js
+: 1681837545:0;l
+: 1681837552:0;tree -ash
+: 1681837580:0;l
+: 1681837714:0;pwd
+: 1681837718:0;$(pwd)
+: 1681837722:0;"$(pwd)"
+: 1681837726:0;echo "$(pwd)"
+: 1681837730:0;echo $(pwd)
+: 1681837735:0;echo $(pwd)/sd
+: 1681837745:0;echo "$(pwd)"/sd
+: 1681837795:0;docker run -it --rm --mount type=bind, src=$(pwd)/src, dst=/src node:12-stretch bash
+: 1681837857:0;docker run -it --rm --mount type=bind,src=$(pwd)/src,dst=/src node:12-stretch bash
+: 1681837909:0;l
+: 1681837920:0;nv src/index.js
+: 1681837934:0;bat src/index.js
+: 1681837941:0;cat src/index.js
+: 1681837970:0;nv src/index.js
+: 1681838712:0;cls
+: 1681838715:0;tldr tr
+: 1681842881:0;l
+: 1681842915:0;docker images
+: 1681842942:0;docker run -it --rm --mount type=bind,src=$(pwd)/src,dst=/src openjdk bash
+: 1681842963:0;docker run -it --rm --mount type=bind,src=$(pwd)/src,dst=/src openjdk:21-slim-buster bash
+: 1681847416:0;l
+: 1681847433:0;sudo ./install_codecs.sh
+: 1681847448:0;sudo ./install_dependencies.sh
+: 1681848832:0;curl -s https://packagecloud.io/install/repositories/ookla/speedtest-cli/script.deb.sh | sudo bash
+: 1681848902:0;sudo apt-get install speedtest
+: 1681848943:0;pingv
+: 1681848983:0;watch ping varzesh3.com
+: 1681849122:0;pingv
+: 1681849135:0;pingv -n 3
+: 1681849153:0;ping -n 3 varzesh3.com
+: 1681849162:0;tldr ping
+: 1681849181:0;pingv -c 3
+: 1681849192:0;watch $(pingv -c 3)
+: 1681849213:0;watch $("pingv -c 3")
+: 1681849224:0;pingv
+: 1681849232:0;sudo apt-get install speedtest
+: 1681849240:0;curl -s https://packagecloud.io/install/repositories/ookla/speedtest-cli/script.deb.sh | sudo bash
+: 1681849265:0;sudo apt-get install speedtest
+: 1681849508:0;speed-test
+: 1681849513:0;speedtest-cli
+: 1681849527:0;speedtest
+: 1681849700:0;sudo apt update
+: 1681849715:0;sudo apt list --upgradable
+: 1681849746:0;sudo apt upgrade
+: 1681851311:0;cls
+: 1681851345:0;conda deactivate
+: 1681851350:0;conda list
+: 1681851356:0;conda env list
+: 1681851366:0;conda activate pypy
+: 1681851369:0;conda lsit
+: 1681851373:0;conda list
+: 1681851473:0;python
+: 1681851493:0;conda install matplotlib
+: 1681851603:0;conda install -c conda-forge matplotlib 
+: 1681851765:0;z python
+: 1681851770:0;cd circle-packing
+: 1681851771:0;cls
+: 1681851788:0;conda deactivate 
+: 1681851805:0;pip freeze | grep opencv
+: 1681851813:0;pip freeze | grep matplot
+: 1681851821:0;pip freeze | grep numpy
+: 1681851827:0;pip freeze | grep numba
+: 1681851832:0;pip install numba
+: 1681851994:0;conda env list
+: 1681852013:0;conda env --help
+: 1681852020:0;conda env remove env1
+: 1681852037:0;conda env remove --help
+: 1681852048:0;conda env remove -n env1
+: 1681852051:0;conda env remove -n env2
+: 1681852055:0;conda env list
+: 1681852066:0;conda base
+: 1681852070:0;conda activate base
+: 1681852073:0;conda lsit
+: 1681852075:0;conda list
+: 1681852083:0;conda list | fzf
+: 1681852122:0;conda env create datascience
+: 1681852133:0;conda env create -h
+: 1681852180:0;conda env -h
+: 1681852204:0;conda -h
+: 1681852241:0;conda create -n datascience
+: 1681852256:0;conda activate datascience
+: 1681852257:0;ls
+: 1681852264:0;conda list | fzf
+: 1681852294:0;conda install numpy matplotlib numba
+: 1681852371:0;python -u "/home/ghd/code/python/circle-packing/circle_packing.py"
+: 1681852411:0;conda deactivate 
+: 1681852424:0;pip install ghdtimer
+: 1681852462:0;python -u "/home/ghd/code/python/circle-packing/circle_packing.py"
+: 1681852478:0;conda deactivate 
+: 1681852481:0;python -u "/home/ghd/code/python/circle-packing/circle_packing.py"
+: 1681852486:0;python
+: 1681852488:0;python3
+: 1681852497:0;python
+: 1681852499:0;python3.11
+: 1681852510:0;pip
+: 1681852513:0;where pip
+: 1681852519:0;which pip
+: 1681852525:0;which pip3
+: 1681852550:0;python3.11 circle_packing.py
+: 1681852576:0;pip3.10
+: 1681852585:0;pip3.10 freeze | fzf
+: 1681852594:0;pip3.10 install numba
+: 1681852752:0;conda activate base
+: 1681852759:0;python
+: 1681852766:0;conda list | fzf
+: 1681852781:0;conda install numba
+: 1681852855:0;conda env list
+: 1681852861:0;conda activate datascience
+: 1681852863:0;conda lsit
+: 1681852865:0;conda list
+: 1681852882:0;conda install numpy matplotlib numba
+: 1681852987:0;python3.11 circle_packing.py
+: 1681856384:0;pingv
+: 1681856586:0;python3.11 circle_packing.py
+: 1681856737:0;python3.11
+: 1681857358:0;python3.11 circle_packing.py
+: 1681857715:0;pingv
+: 1681857810:0;python3.11 circle_packing.py
+: 1681861165:0;time python3.11 circle_packing.py
+: 1681862075:0;conda activate datascience
+: 1681862081:0;conda list | fzf
+: 1681862090:0;conda activate base
+: 1681862092:0;conda list
+: 1681862097:0;conda list | fzf
+: 1681862272:0;conda install numpy matplotlib numba
+: 1681863918:0;ls
+: 1681863918:0;s
+: 1681863919:0;ls
+: 1681863943:0;g++ main.cpp -o circle_packing
+: 1681863964:0;./circle_packing
+: 1681863972:0;time ./circle_packing
+: 1681864002:0;chmod +x ./build.sh
+: 1681864009:0;./build.sh
+: 1681864035:0;time ./circle_packing
+: 1681864093:0;./build.sh
+: 1681864099:0;time ./circle_packing
+: 1681864151:0;./build.sh
+: 1681864193:0;./circle_packing > result.txt
+: 1681864201:0;bat result.txt
+: 1681864487:0;python3.11 load_cpp_data.py
+: 1681864923:0;pip freeze | grep matplotlib
+: 1681864929:0;pip freeze | grep matplo
+: 1681864943:0;pip3.11 freeze | grep matpl
+: 1681865321:0;./build.sh
+: 1681865399:0;echo -e "\n"
+: 1681865460:0;./build.sh
+: 1681865634:0;time -h
+: 1681865641:0;time --help
+: 1681865646:0;tldr time
+: 1681865653:0;man time
+: 1681865767:0;time -f %Eelapsed ls
+: 1681865776:0;man time
+: 1681865833:0;time -f "%Eelapsed" ls
+: 1681865844:0;time --format
+: 1681865850:0;time --format=%E
+: 1681865852:0;time --format=%E ls
+: 1681865859:0;time -a
+: 1681865867:0;man time
+: 1681865891:0;time -q
+: 1681865903:0;bash
+: 1681865911:0;cls
+: 1681866012:0;./build.sh
+: 1681867780:0;ls images
+: 1681867783:0;l images 
+: 1681867797:0;du -sh
+: 1681867808:0;du -h
+: 1681867816:0;l -S 
+: 1681867828:0;l -S images
+: 1681905569:0;python3.11 word_quality.py
+: 1681905781:0;python3.11
+: 1681905810:0;python3.11 word_quality.py
+: 1681906022:0;echo 1>python3.11 word_quality.py
+: 1681906053:0;echo 1 | python3.11 word_quality.py
+: 1681906087:0;python3.11 word_quality.py
+: 1681907024:0;echo "ddasda" | python3.11 word_quality.py
+: 1681907046:0;echo "1" | python3.11 word_quality.py
+: 1681907062:0;echo -e "1\nddd" | python3.11 word_quality.py
+: 1681907141:0;echo -e "1\nyghlvqhnhv" | python3.11 word_quality.py
+: 1681907214:0;echo -e "1\nfjfjfjfjfj" | python3.11 word_quality.py
+: 1681907579:0;python3.11 word_quality_raw.py gholamrezadar
+: 1681907805:0;python3.11 word_quality_raw.py gholamrezadar apple google microsoft amazon ebay facebook instagram
+: 1681907818:0;python3.11 word_quality_batch.py gholamrezadar apple google microsoft amazon ebay facebook instagram
+: 1681908918:0;python3.11 word_quality_batch.py gholamrezadar apple google microsoft amazon ebay facebook instagram aaaaaaaaa
+: 1681908987:0;python3.11 word_quality_batch.py gholamrezadar apple google microsoft amazon ebay facebook instagram aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+: 1681909098:0;python3.11 word_quality_batch.py gholamreza ahmad amirhasan hasan ali abolfazl hamidreza
+: 1681909175:0;python3.11 word_quality_batch.py amirhasan ahmad hamidreza ali gholamreza abolfazl
+: 1681909350:0;python3.11 word_quality_batch.py hasan avad hamid seif gholam abol
+: 1681909413:0;python3.11 word_quality_batch.py seif hamid gholam hasan avad abol
+: 1681923279:0;cls
+: 1681923296:0;g++ -O3 circle_packing.cpp -o circle_packing
+: 1681923310:0;./build.sh
+: 1681924078:0;python --version
+: 1681924080:0;ls
+: 1681924084:0;conda deactivate 
+: 1681924087:0;python --version
+: 1681924094:0;python3 --version
+: 1681924114:0;python3.11 plot_circle_data_opencv.py
+: 1681924426:0;time python3.11 plot_circle_data_opencv.py
+: 1681924911:0;./build.sh
+: 1681925021:0;time python3.11 plot_circle_data_opencv.py
+: 1681925088:0;./images/cv_result_2023-04-19\ 20:44:51.png
+: 1681925094:0;eog /images/cv_result_2023-04-19\ 20:44:51.png
+: 1681925112:0;eog ./images/cv_result_2023-04-19\ 20:44:51.png
+: 1681925152:0;ls images
+: 1681925161:0;ls images | grep cv
+: 1681925299:0;ls images
+: 1681925301:0;l images
+: 1681925320:0;l -S images | head
+: 1681925356:0;ls -t images | head -n 1
+: 1681925367:0;ls -t images | head -n 1 | eog
+: 1681925405:0;ls -t images | head -n 1 | echo
+: 1681925562:0;images/$(ls -t images | head -n 1)
+: 1681925588:0;images/"$(ls -t images | head -n 1)"
+: 1681925593:0;eog images/"$(ls -t images | head -n 1)"
+: 1681925659:0;./build.sh
+: 1681926089:0;ls
+: 1681926095:0;du -sh
+: 1681928371:0;cls
+: 1681928502:0;python3.11 plot_circle_data_opencv.py result_codespaces.txt
+: 1681930404:0;xxd
+: 1681930414:0;tldr xxd
+: 1681930437:0;xxd circle_packing
+: 1681931737:0;g++ main.cpp -o main
+: 1681931742:0;./main
+: 1681931750:0;pwd
+: 1681931756:0;cls
+: 1681931762:0;cd /home/ghd/code/cpp/pointer-practice
+: 1681931763:0;l
+: 1681931768:0;xxd main
+: 1681931785:0;bat xxd main
+: 1681931798:0;xxd main | bat
+: 1681931851:0;cls
+: 1681931852:0;l
+: 1681931859:0;du -sh
+: 1681931862:0;du -h
+: 1681931865:0;du
+: 1681931867:0;l
+: 1681931891:0;g++ -O2 main.cpp -o main
+: 1681931894:0;l
+: 1681931902:0;xxd main | bat
+: 1681931940:0;ghex
+: 1681934183:0;g++ main.cpp -o main
+: 1682010388:0;sudo apt upgrade
+: 1682010507:0;jupyter
+: 1682010516:0;conda deactivate 
+: 1682010521:0;jupyterlab
+: 1682010532:0;jupyter notebook
+: 1682010552:0;jupyterlab
+: 1682010554:0;cls
+: 1682010559:0;conda activate base
+: 1682010560:0;ls
+: 1682010566:0;conda list
+: 1682010573:0;conda list | fzf
+: 1682010595:0;conda activate datascience\\
+
+: 1682010597:0;ls
+: 1682010601:0;conda list | fzf
+: 1682029041:0;python -u "/home/ghd/code/python/Untitled-1.py"
+: 1682029585:0;conda activate datascience
+: 1682029593:0;conda list | fzf
+: 1682029598:0;cls
+: 1682029601:0;python -u "/home/ghd/code/python/Untitled-1.py"
+: 1682029997:0;conda activate datascience
+: 1682029997:0;conda install --name datascience flake8 -y
+: 1682030217:0;conda activate datascience
+: 1682030218:0;conda install --name datascience autopep8 -y
+: 1682030382:0;python -u "/home/ghd/code/python/Untitled-1.py"
+: 1682030382:0;conda activate datascience
+: 1682030393:0;cls
+: 1682030397:0;conda list
+: 1682030400:0;python -u "/home/ghd/code/python/Untitled-1.py"
+: 1682039381:0;nvimconfig
+: 1682039420:0;nvim ~/.dotfiles/.config/nvim
+: 1682039581:0;cd ~/.dotfiles/.config
+: 1682039582:0;l
+: 1682039584:0;cd nvim
+: 1682039585:0;l
+: 1682039590:0;cd lua
+: 1682039590:0;l
+: 1682039594:0;cd user
+: 1682039595:0;l
+: 1682039599:0;nvim .
+: 1682081584:0;~
+: 1682081585:0;cls
+: 1682082908:0;pingv
+: 1682088214:0;ping vercel.com
+: 1682088234:0;ping google.com
+: 1682088244:0;ping 8.8.8.8
+: 1682088253:0;ping 4.2.2.4
+: 1682088261:0;pingv
+: 1682090007:0;nvim .
+: 1682090071:0;cls
+: 1682090074:0;alacconfig
+: 1682090101:0;cd .dotfiles/.config
+: 1682090102:0;l
+: 1682090105:0;cd alacritty
+: 1682090105:0;l
+: 1682090125:0;nv alacritty.yml
+: 1682090237:0;cls
+: 1682090304:0;alacconfig
+: 1682090466:0;cls
+: 1682090467:0;l
+: 1682090469:0;cls
+: 1682090470:0;l
+: 1682090484:0;cd ../../
+: 1682090485:0;l
+: 1682090492:0;git add .
+: 1682090507:0;git commit -m "update alacritty and stuff"
+: 1682090513:0;git push
+: 1682090538:0;cls
+: 1682091985:0;z cpp
+: 1682092050:0;ls .
+: 1682092090:0;cls
+: 1682092093:0;$_
+: 1682092095:0;cls
+: 1682092099:0;echo $_
+: 1682092101:0;cler
+: 1682092104:0;clear
+: 1682092230:0;sudo apt-get install libsdl2-dev\
+
+: 1682092248:0;z cpp
+: 1682092249:0;l
+: 1682092264:0;md SDL_Test && cd SDL_test
+: 1682092276:0;cd SDL_Test
+: 1682092277:0;l
+: 1682092278:0;cls
+: 1682092314:0;clear
+: 1682092364:0;nv .
+: 1682092527:0;sdl2-config --help
+: 1682092536:0;sdl2-config
+: 1682092545:0;sdl2-config --cflags
+: 1682092550:0;sdl2-config --cflags --libs
+: 1682092563:0;`sdl2-config --cflags --libs`
+: 1682092570:0;echo `sdl2-config --cflags --libs`
+: 1682093280:0;cls
+: 1682093285:0;cmake --version
+: 1682093491:0;sdl2-config --cflags --libs
+: 1682093825:0;code .
+: 1682094020:0;nv .
+: 1682094149:0;app `sdl2-config --cflags --libs`\
+
+: 1682094152:0;cls
+: 1682094154:0;claer
+: 1682094155:0;clear
+: 1682094159:0;md build
+: 1682094163:0;cd $_
+: 1682094163:0;ls
+: 1682094164:0;l
+: 1682094178:0;ls .
+: 1682094182:0;l .
+: 1682094190:0;echo $_
+: 1682094197:0;l ../src
+: 1682094200:0;echo $_
+: 1682094205:0;cl
+: 1682094205:0;scl
+: 1682094209:0;clear
+: 1682094211:0;l
+: 1682094215:0;ls
+: 1682094217:0;l
+: 1682094229:0;cmake --help
+: 1682094335:0;cd ../
+: 1682094337:0;tree
+: 1682094395:0;cd build
+: 1682094449:0;cmake .
+: 1682094462:0;cmake ..
+: 1682094496:0;ls
+: 1682094553:0;bat Makefile
+: 1682094627:0;tree
+: 1682094641:0;ls bin
+: 1682094727:0;cmake --build .
+: 1682094740:0;ls bin
+: 1682094754:0;bin/sdl_app
+: 1682094815:0;code .
+: 1682094873:0;/home/ghd/code/cpp/SDL_Test/build/bin/sdl_app
+: 1682107140:0;sudo apt install libglm-dev\
+
+: 1682107289:0;history | fzf
+: 1682107321:0;$-
+: 1682107323:0;$_
+: 1682107327:0;history | fzf
+: 1682107344:0;echo $_
+: 1682107357:0;$_
+: 1682107370:0;pkg-config glfw
+: 1682107372:0;echo pkg-config glfw
+: 1682107382:0;pkg-config --static --libs glfw3
+: 1682107387:0;pkg-config --static --libs glm
+: 1682107394:0;pkg-config --libs glm
+: 1682107416:0;sudo apt install libglm-dev\
+
+: 1682107426:0;sudo apt autoremove
+: 1682107433:0;sudo apt install libglm-dev\
+
+: 1682107440:0;pkg-config --libs glm
+: 1682107572:0;/home/ghd/code/cpp/SDL_Test/build/bin/sdl_app
+: 1682114659:0;cd ../
+: 1682114659:0;ls
+: 1682114665:0;cd ,,.
+: 1682114668:0;ls
+: 1682114671:0;cd ../
+: 1682114671:0;ls
+: 1682114676:0;du -sh
+: 1682118708:0;c++filt
+: 1682118724:0;l
+: 1682118727:0;cd src
+: 1682118730:0;l
+: 1682118739:0;g++ main.cpp -o -
+: 1682118745:0;l
+: 1682118747:0;cd ~
+: 1682118750:0;cd code
+: 1682118752:0;l
+: 1682118754:0;cd cpp
+: 1682118755:0;l
+: 1682118770:0;nv a.cpp
+: 1682118826:0;g++ main.cpp -O2 -o -
+: 1682118843:0;g++ a.cpp -O2 -o -
+: 1682118858:0;g++ a.cpp -O2 -c -o -
+: 1682118866:0;g++ a.cpp -O2 -cS -o -
+: 1682118872:0;g++ a.cpp -O2 -c -S -o -
+: 1682118888:0;g++ a.cpp -O2 -c -S -o - | c++filt
+: 1682119087:0;g++ a.cpp -O2 -c -S -o - | c++filt | grep -vE '\s+\.\'
+: 1682119091:0;g++ a.cpp -O2 -c -S -o - | c++filt | grep -vE '\s+\.'
+: 1682119114:0;g++ a.cpp -O2 -c -S -o - | c++filt | grep -E '\s+\.'
+: 1682119128:0;g++ a.cpp -O2 -c -S -o - | c++filt | grep -E '^\s+\.'
+: 1682119136:0;g++ a.cpp -O2 -c -S -o - | c++filt | grep -vE '^\s+\.'
+: 1682119142:0;grep -v --help
+: 1682119154:0;grep --help | grep -v
+: 1682119164:0;grep --help
+: 1682119175:0;grep --help | grep '-v'
+: 1682119179:0;grep --help | grep v
+: 1682119185:0;grep --help | grep \-v
+: 1682119194:0;grep --help | grep `-v`
+: 1682119202:0;grep --help | grep "-v"
+: 1682119208:0;grep --help | grep "v"
+: 1682119230:0;grep --help | grep `echo "-v"`
+: 1682119238:0;echo '-v'
+: 1682119324:0;grep --help | grep '\-v\
+'
+: 1682119330:0;grep --help | grep '\-v'\
+'\
+\
+
+: 1682119353:0;grep --help | grep -E '\-'\
+'\
+\
+
+: 1682119360:0;grep --help | grep h\
+'\
+\
+
+: 1682119368:0;cls
+: 1682119371:0;zsh
+: 1682119373:0;cls
+: 1682119379:0;grep --help | grep -E '\-'\
+'\
+\
+
+: 1682119387:0;grep --help | grep -E \-\
+'\
+\
+
+: 1682119434:0;grep --help\
+'\
+\
+
+: 1682119439:0;grep --help\
+\
+
+: 1682119468:0;grep --help | grep v\
+\
+
+: 1682119477:0;grep --help | grep -X -v\
+\
+
+: 1682119482:0;grep --help | grep -X "-v"\
+\
+
+: 1682119491:0;grep --help | grep -X -E "\-v"\
+\
+
+: 1682119501:0;grep --help | grep -E -X "\-v"\
+\
+
+: 1682119583:0;grep --help | grep -- "-v"
+: 1682119590:0;grep --help | grep -w -- "-v"
+: 1682119601:0;grep --help | grep "version"
+: 1682119606:0;grep --help | grep "v\
+"
+: 1682119610:0;grep --help | grep "v"
+: 1682119635:0;grep --help | grep "-v"
+: 1682119641:0;grep --help | grep -- "-v"
+: 1682119646:0;grep --help | grep -w -- "-v"
+: 1682119675:0;grep --help | grep -w -- "invert"
+: 1682119686:0;grep --help | grep  -- "invert"
+: 1682119700:0;z
+: 1682119706:0;z | fzf
+: 1682119725:0;z
+: 1682119734:0;z | tail
+: 1682119752:0;echo $_
+: 1682119783:0;cd /home/ghd/code/cp
+: 1682119787:0;cd /home/ghd/code/cpp
+: 1682119788:0;l
+: 1682119796:0;g++ a.cpp -O2 -c -S -o - | c++filt | grep -vE '^\s+\.'
+: 1682119802:0;g++ a.cpp -O2 -c -S -o - | c++filt | grep -vE '^\s+\.' | bat
+: 1682119811:0;bat --help
+: 1682119925:0;cd cpp
+: 1682119930:0;g++ a.cpp -O2 -c -S -o - | c++filt | grep -vE '^\s+\.' | bat -a
+: 1682119935:0;g++ a.cpp -O2 -c -S -o - | c++filt | grep -vE '^\s+\.' | bat --showall
+: 1682119940:0;g++ a.cpp -O2 -c -S -o - | c++filt | grep -vE '^\s+\.' | bat --show-all
+: 1682119946:0;g++ a.cpp -O2 -c -S -o - | c++filt | grep -vE '^\s+\.' | bat --all
+: 1682119949:0;g++ a.cpp -O2 -c -S -o - | c++filt | grep -vE '^\s+\.' | bat -a
+: 1682119957:0;g++ a.cpp -O2 -c -S -o - | c++filt | grep -vE '^\s+\.' | bat --list-languafes
+: 1682119961:0;g++ a.cpp -O2 -c -S -o - | c++filt | grep -vE '^\s+\.' | bat --list-languages
+: 1682120012:0;g++ a.cpp -O2 -c -S -o - | c++filt | grep -vE '^\s+\.' | bat -l s
+: 1682120015:0;g++ a.cpp -O2 -c -S -o - | c++filt | grep -vE '^\s+\.' | bat -l S
+: 1682120072:0;watch $("pingv -c 3")
+: 1682120080:0;watch $(pingv)
+: 1682120095:0;watch --help
+: 1682120110:0;watch -d
+: 1682120114:0;watch -d top
+: 1682120127:0;watch top
+: 1682120133:0;top
+: 1682120140:0;watch htop
+: 1682120149:0;htop
+: 1682125428:0;ls /etc
+: 1682125446:0;bat /etc/passwd
+: 1682125574:0;bat /proc/cpuinfo
+: 1682125648:0;htop
+: 1682125664:0;top
+: 1682125674:0;htop
+: 1682126598:0;ls /usr/include
+: 1682126605:0;ls /usr/include | grep lin
+: 1682131967:0;gcc --version
+: 1682166431:0;pingv
+: 1682168144:0;z arshad
+: 1682168155:0;pwd
+: 1682168169:0;cd ~/media/ghd/Reza/Arshad/Books~
+: 1682168171:0;cd ~/media/ghd/Reza/Arshad/Books
+: 1682168193:0;cd ~/media/ghd
+: 1682168197:0;cd ~
+: 1682168198:0;l
+: 1682168232:0;cd /media/ghd/Reza/Arshad/Books
+: 1682168234:0;ls
+: 1682168235:0;l
+: 1682168239:0;tree
+: 1682168246:0;du -sh
+: 1682168266:0;tree -ash
+: 1682168303:0;tree
+: 1682168318:0;ls --help
+: 1682168336:0;l
+: 1682168338:0;l -R
+: 1682168361:0;l -R | grep *.pdf
+: 1682168376:0;l -R | egrep *.pdf
+: 1682168384:0;l -R | egrep '*.pdf'
+: 1682168415:0;ls -R | egrep '*.pdf'
+: 1682168549:0;ls -R | egrep '*.pdf' | 
+: 1682168553:0;pingv
+: 1682168785:0;ping 4.2.2.4
+: 1682168795:0;traceroute google.com
+: 1682168809:0;tracepath google.com
+: 1682168819:0;ping 4.2.2.4
+: 1682169207:0;ping 8.8.8.8
+: 1682169263:0;ip route
+: 1682169267:0;ip route show
+: 1682169322:0;ip a
+: 1682169325:0;ip
+: 1682169339:0;ip a
+: 1682169341:0;ip a -h
+: 1682169346:0;ip -h a
+: 1682169393:0;cls
+: 1682169415:0;bat /etc/network/
+: 1682169450:0;ls  /etc/network
+: 1682169547:0;cls
+: 1682169551:0;pingv
+: 1682169556:0;ping 8.8.8.8
+: 1682169686:0;ifconfig
+: 1682169867:0;ping localhost
+: 1682169876:0;ping ::1
+: 1682169891:0;ping 8.8.8.8
+: 1682169994:0;sudo ufw
+: 1682170060:0;ufw
+: 1682170067:0;route
+: 1682170078:0;route -n
+: 1682170107:0;tracert
+: 1682170202:0;ip addr
+: 1682170294:0;sudo ifup lo
+: 1682170328:0;bat /etc/resolv.conf
+: 1682170415:0;sudo service network restart
+: 1682170421:0;sudo service networking restart
+: 1682170485:0;route -n
+: 1682170496:0;ip a -h
+: 1682170498:0;ip a
+: 1682170701:0;ping 192.168.1.1
+: 1682170708:0;ping 192.168.0.1
+: 1682170752:0;vi
+: 1682170859:0;sudo service networking restart
+: 1682170919:0;route add --help
+: 1682170930:0;route add default gw --help
+: 1682170946:0;route add default gw 192.168.1.1
+: 1682170951:0;sudo route add default gw 192.168.1.1
+: 1682170958:0;ping 8.8.8.8
+: 1682175986:0;z cpp
+: 1682175997:0;cd Glitter
+: 1682175999:0;l
+: 1682176009:0;cd Glitter
+: 1682176011:0;nv .
+: 1682176034:0;ranger
+: 1682176072:0;cd SDL_Test
+: 1682176074:0;cls
+: 1682176077:0;nv .
+: 1682181829:0;nvimconfig
+: 1682181849:0;zshconfig
+: 1682181884:0;zsh
+: 1682181887:0;nvimconfig
+: 1682189254:0;ping 8.8.8.8
+: 1682189262:0;h
+: 1682189285:0;sudo route add default gw 192.168.1.1
+: 1682189288:0;pingv
+: 1682189297:0;ping 8.8.8.8
+: 1682189300:0;ping v
+: 1682189304:0;pingv
+: 1682189338:0;nv gateway.sh
+: 1682189392:0;chmod +x gateway.sh
+: 1682189393:0;cls
+: 1682189548:0;pingv
+: 1682189558:0;ping 8.8.8.8
+: 1682189560:0;cls
+: 1682189564:0;sudo route add default gw 192.168.1.1
+: 1682189567:0;ping 8.8.8.8
+: 1682189612:0;pingv
+: 1682189760:0;ping 178.22.122.100,
+: 1682189763:0;ping 178.22.122.100
+: 1682190310:0;nvimconfig
+: 1682192304:0;cls
+: 1682192316:0;z /home/ghd/code/cpp/SDL_Test
+: 1682192316:0;l
+: 1682192330:0;ls sr
+: 1682192337:0;nvim .
+: 1682194094:0;cls
+: 1682194107:0;cd ~/.config/nvim/
+: 1682194108:0;l
+: 1682194116:0;nvim .
+: 1682194148:0;ls lua
+: 1682194153:0;nvim .
+: 1682194203:0;cd user
+: 1682194214:0;cd lua/user
+: 1682194215:0;l
+: 1682194218:0;nvim .
+: 1682195373:0;nv 
+: 1682195483:0;nv .
+: 1682196201:0;cd .dotfiles/.config
+: 1682196211:0;cd ~/.dotfiles/.config
+: 1682196212:0;ls
+: 1682196238:0;rm -rf nvim
+: 1682196239:0;ls
+: 1682196242:0;cd ../
+: 1682196243:0;l
+: 1682196291:0;cd ~/.config
+: 1682196292:0;l
+: 1682196301:0;cd nvim
+: 1682196303:0;l
+: 1682196312:0;nv
+: 1682196338:0;cls
+: 1682196364:0;l
+: 1682196382:0;git status
+: 1682196385:0;git add .
+: 1682196395:0;git commit -m "removed astronvim"
+: 1682196400:0;git push
+: 1682196422:0;ping github.com
+: 1682196443:0;git push
+: 1682196466:0;git config --global --unset https.proxy
+: 1682196468:0;ls
+: 1682196472:0;git config --global --unset https.proxy
+: 1682196475:0;sudo git config --global --unset https.proxy
+: 1682196481:0;git push
+: 1682196509:0;stow .
+: 1682196518:0;zshconfig
+: 1682196646:0;git add .
+: 1682196661:0;git commit -m "update vimconfig alias\
+"
+: 1682196665:0;git push
+: 1682196670:0;cls
+: 1682196673:0;l
+: 1682196678:0;cd .config
+: 1682196679:0;ls
+: 1682196760:0;mv ~/.local/share/nvim ~/.local/share/nvim.bak\
+mv ~/.local/state/nvim ~/.local/state/nvim.bak\
+mv ~/.cache/nvim ~/.cache/nvim.bak
+: 1682196761:0;ls
+: 1682196773:0;l
+: 1682196779:0;cd nvim
+: 1682196793:0;rm -rf nvim
+: 1682196795:0;cls
+: 1682197126:0;l
+: 1682197135:0;git clone https://github.com/AstroNvim/AstroNvim ~/.dotfiles/.config/nvim
+: 1682197170:0;git config --global --unset https.proxy
+: 1682197179:0;git clone https://github.com/AstroNvim/AstroNvim ~/.dotfiles/.config/nvim
+: 1682197201:0;ls
+: 1682197203:0;..
+: 1682197208:0;l
+: 1682197215:0;bat .gitignore
+: 1682197221:0;cls
+: 1682197243:0;git clone https://github.com/Gholamrezadar/astronvim_config ~/.dotfiles/.config/nvim/lua/user
+: 1682197341:0;git clone git@github.com:Gholamrezadar/astronvim_config.git ~/.dotfiles/.config/nvim/lua/user
+: 1682197370:0;git config --global --unset https.proxy
+: 1682197372:0;git clone git@github.com:Gholamrezadar/astronvim_config.git ~/.dotfiles/.config/nvim/lua/user
+: 1682197394:0;h git
+: 1682197403:0;h proxy
+: 1682197418:0;h http
+: 1682197422:0;h
+: 1682197429:0;h g
+: 1682197434:0;cs
+: 1682197435:0;cl
+: 1682197436:0;scls
+: 1682197437:0;cls
+: 1682197446:0;ls .config
+: 1682197449:0;ls .config/nvim
+: 1682197455:0;cd lua
+: 1682197462:0;ls .config/nvim/lua
+: 1682197465:0;ls .config/nvim/lua/user
+: 1682197478:0;bat  .config/nvim/lua/user init.lua
+: 1682197485:0;bat  .config/nvim/lua/user/init.lua
+: 1682197495:0;cls
+: 1682197498:0;l
+: 1682197523:0;touch YOU-CAN-STOW.-NOW
+: 1682197525:0;l
+: 1682197531:0;stow .
+: 1682197532:0;ls
+: 1682197540:0;git add .
+: 1682197547:0;git status
+: 1682197563:0;git commit -m "added astronvim"
+: 1682197566:0;git push
+: 1682197603:0;nvim new.txt
+: 1682197655:0;git config --global --unset https.proxy
+: 1682197656:0;l
+: 1682197665:0;cd ~
+: 1682197672:0;sf
+: 1682197827:0;git config --global --unset https.proxy
+: 1682197848:0;nvim
+: 1682197978:0;clang
+: 1682197984:0;sudo apt search clang
+: 1682198073:0;bash -c "$(wget -O - https://apt.llvm.org/llvm.sh)"
+: 1682198083:0;sudo bash -c "$(wget -O - https://apt.llvm.org/llvm.sh)"
+: 1682198333:0;where clang
+: 1682198348:0;zsh
+: 1682198350:0;clang
+: 1682198362:0;where clang-15
+: 1682199076:0;nvimconfig
+: 1682199538:0;cd ~/.dotfiles/.config
+: 1682199539:0;ls
+: 1682199543:0;vi nvim
+: 1682199556:0;cd nvim
+: 1682199557:0;l
+: 1682199559:0;cd lua
+: 1682199560:0;l
+: 1682199562:0;cd user
+: 1682199562:0;l
+: 1682199570:0;cd plugins
+: 1682199571:0;;s
+: 1682199572:0;l
+: 1682199598:0;cd ..
+: 1682199598:0;l
+: 1682199601:0;code .
+: 1682199639:0;nv
+: 1682199825:0;zshconfig
+: 1682199873:0;nvimconfig
+: 1682199885:0;zsh
+: 1682199888:0;nvimconfig
+: 1682199912:0;cd ../
+: 1682199925:0;git status
+: 1682199929:0;git ad .
+: 1682199932:0;git add .
+: 1682199953:0;git commit -m "catppuccin theme installed and tab disabled"
+: 1682199983:0;cd lua
+: 1682199986:0;cd user
+: 1682199987:0;l
+: 1682199992:0;git status
+: 1682199996:0;git add .
+: 1682200000:0;git commit -m "catppuccin theme installed and tab disabled"
+: 1682200004:0;git push
+: 1682200016:0;git config --global --unset https.proxy
+: 1682200018:0;git push
+: 1682200024:0;cls
+: 1682200029:0;git status
+: 1682200064:0;nvimconfig
+: 1682200082:0;nvim .
+: 1682203081:0;cd src
+: 1682203081:0;ls
+: 1682203098:0;wc -l Renderer.
+: 1682203102:0;wc -l Renderer.cpp
+: 1682203123:0;ls | xargs | wc -l 
+: 1682203130:0;ls | wc -l
+: 1682203143:0;l
+: 1682203153:0;l | wc -l
+: 1682203234:0;for item in $(ls); do\
+echo $item\
+done
+: 1682203252:0;for item in $(ls); do\
+echo wc -l $item\
+done
+: 1682203262:0;for item in $(ls); do\
+echo `wc -l $item`\
+done
+: 1682203300:0;nv Renderer.cpp
+: 1682205296:0;code Renderer.cpp
+: 1682205447:0;nv Renderer.cpp
+: 1682205462:0;code Renderer.cpp
+: 1682205473:0;nv Renderer.cpp
+: 1682205499:0;code Renderer.cpp
+: 1682206018:0;nvimconfig
+: 1682206037:0;zsh
+: 1682206040:0;zshconfig
+: 1682206052:0;nvimconfig
+: 1682206444:0;git config --global --unset https.proxy
+: 1682206446:0;nvimconfig
+: 1682207705:0;git config --global --unset https.proxy
+: 1682207710:0;nvimconfig
+: 1682208116:0;git status
+: 1682208122:0;git add .
+: 1682208131:0;git commit -m "added themes"
+: 1682208137:0;git config --global --unset https.proxy
+: 1682208143:0;git push
+: 1682208155:0;git config --global --unset https.proxy
+: 1682208156:0;git push
+: 1682208163:0;python -v
+: 1682208174:0;python --version
+: 1682208181:0;pip list
+: 1682208188:0;conda list | fzf
+: 1682208205:0;zshconfig
+: 1682208281:0;cd ~/.dotfiles/
+: 1682208282:0;l
+: 1682208289:0;alias | fzf
+: 1682208429:0;gc -m "Update conda startup env to DS"
+: 1682208438:0;ga .
+: 1682208443:0;gc -m "Update conda startup env to DS"
+: 1682208449:0;gp
+: 1682208466:0;git config --global --unset https.proxy
+: 1682208467:0;gp
+: 1682208661:0;zsh
+: 1682208820:0;where nvim
+: 1682209021:0;docker ps
+: 1682209025:0;docker ps --all
+: 1682209027:0;docker images
+: 1682209077:0;docker run -it --rm ubuntu:bionic bash
+: 1682209262:0;tldr wgtt
+: 1682209264:0;tldr wget
+: 1682210295:0;docker run -it --rm ubuntu:bionic bash
+: 1682210544:0;z /home/ghd/code/cpp/SDL_Test
+: 1682210551:0;nv Renderer.cpp
+: 1682210559:0;l
+: 1682210569:0;nv src/Renderer.
+: 1682210574:0;nv src/Renderer.cpp
+: 1682210994:0;cd ~/.dotfiles/.config/nvim/lua
+: 1682210997:0;nvim ,
+: 1682211002:0;nvim .
+: 1682213930:0;cd user
+: 1682213931:0;l
+: 1682213934:0;ga .
+: 1682213948:0;gc -m "Add snippet capability"
+: 1682213954:0;git config --global --unset https.proxy
+: 1682213956:0;gp
+: 1682213969:0;git config --global --unset https.proxy
+: 1682213970:0;gp
+: 1682213975:0;cls
+: 1682213976:0;cle
+: 1682213979:0;clear
+: 1682213984:0;l
+: 1682213989:0;ls | bat
+: 1682213996:0;cls
+: 1682213998:0;l | bat
+: 1682214005:0;ls
+: 1682214010:0;nvim .
+: 1682214552:0;nv test.test
+: 1682215598:0;nvim .
+: 1682215622:0;git config --global --unset https.proxy
+: 1682215624:0;nvim .
+: 1682215691:0;nv test.test
+: 1682215919:0;nvim .
+: 1682216251:0;ga .
+: 1682216263:0;gc -m "Add Telescope Undo"
+: 1682216269:0;gp
+: 1682216273:0;git config --global --unset https.proxy
+: 1682216275:0;gp
+: 1682216404:0;git config --global https.proxy
+: 1682216433:0;git config --global --get https.proxy
+: 1682216441:0;git config --global https.proxy
+: 1682216444:0;git config --global --get https.proxy
+: 1682216512:0;cd /etc/netplan
+: 1682216514:0;ls
+: 1682216522:0;nv 01-network-manager-all.yaml
+: 1682216704:0;ps aux | fzf
+: 1682216721:0;ps aux | grep nekoray
+: 1682216740:0;sudo killall nekobox_core
+: 1682216772:0;sudo ip link delete nekoray-tun
+: 1682216876:0;bat /etc/systemd/resolved.conf
+: 1682216905:0;systemd-analyze cat-config systemd/resolved.conf
+: 1682217253:0;systemd-resolve --status\
+
+: 1682217261:0;systemd
+: 1682217315:0;cd /etc/NetworkManager
+: 1682217316:0;l
+: 1682217325:0;bat conf.d
+: 1682217351:0;bat NetworkManager.conf
+: 1682217382:0;nv NetworkManager.conf
+: 1682217405:0;sudo nv NetworkManager.conf
+: 1682217414:0;sudo nvim NetworkManager.conf
+: 1682217519:0;sudo systemctl restart NetworkManager.service\
+
+: 1682217532:0;systemd-resolve --status\
+
+: 1682217573:0;pingv
+: 1682217586:0;ping 8.8.8.8
+: 1682217609:0;sudo systemctl restart NetworkManager.service\
+
+: 1682217612:0;ping 8.8.8.8
+: 1682217692:0;route add default gw 192.168.1.1
+: 1682217697:0;sudo route add default gw 192.168.1.1
+: 1682217701:0;ping 8.8.8.8
+: 1682217715:0;ip a
+: 1682217829:0;systemd-resolve --status | grep 'DNS Servers'\
+
+: 1682217862:0;sudo apt-get install systemd-resolve
+: 1682217880:0;sudo apt install systemd-resolve
+: 1682217935:0;resolvectl status
+: 1682217964:0;tracert
+: 1682217975:0;sudo apt search tracert
+: 1682217982:0;sudo apt search traceroute
+: 1682218184:0;bat /etc/network/interfaces
+: 1682218229:0;ip address show
+: 1682218281:0;cat /run/systemd/resolve/stub-resolv.conf\
+
+: 1682218323:0;cat /etc/resolv.conf\
+
+: 1682218427:0;ip a
+: 1682218472:0;ip route show default\
+
+: 1682218484:0;ip route show \
+
+: 1682218509:0;ip route
+: 1682218622:0;route
+: 1682218678:0;sudo apt install traceroute
+: 1682218692:0;traceroute google.com
+: 1682218704:0;traceroute 8.8.8.8
+: 1682218711:0;traceroute varzesh3.com
+: 1682218719:0;traceroute shatel.ir
+: 1682219375:0;ifconfig
+: 1682219381:0;ip a
+: 1682219409:0;ifconfig | bat
+: 1682219414:0;ifconfig | bat -l js
+: 1682219418:0;ifconfig | bat -l html
+: 1682219422:0;ifconfig | bat -l python
+: 1682219437:0;ifconfig | bat -l bash
+: 1682219439:0;ifconfig | bat -l python
+: 1682219463:0;traceroute shatel.ir | bat -l python
+: 1682219516:0;traceroute chat.openai.com | bat -l python
+: 1682219537:0;bat --help | grep wrap
+: 1682219549:0;traceroute chat.openai.com | bat -l python --wrap=never
+: 1682219627:0;traceroute chat.openai.com | bat -l python 
+: 1682219668:0;ifconfig
+: 1682219674:0;ifconfig | bat -l python
+: 1682219691:0;route
+: 1682219704:0;ip route | bat -l py
+: 1682219802:0;cat /etc/resolv.conf\
+
+: 1682219820:0;resolvectl status
+: 1682219830:0;resolvectl status | bat -l py
+: 1682219874:0;cls
+: 1682219877:0;~
+: 1682219878:0;cls
+: 1682219894:0;ip
+: 1682219898:0;ip a
+: 1682219916:0;ip a -h
+: 1682219922:0;ip a | bat -l py
+: 1682219947:0;ip a | bat -l js
+: 1682219953:0;ip a | bat -l ts
+: 1682219962:0;ip a | bat -l cpp
+: 1682219971:0;ip a | bat -l py
+: 1682220334:0;cls
+: 1682220365:0;ping 8.8.8.8
+: 1682220375:0;ping varzesh3.com
+: 1682220395:0;ping google.com
+: 1682220422:0;ping shatel.ir
+: 1682220727:0;ping 8.8.8.8
+: 1682220797:0;ping shatel.ir
+: 1682220899:0;speedtest
+: 1682221084:0;tldr curl
+: 1682221114:0;curl --help | egrep -- -s
+: 1682221129:0;curl --help | egrep -- -v
+: 1682221166:0;curl -v https://packagecloud.io/install/repositories/ookla/speedtest-cli/script.deb.sh
+: 1682221494:0;resolvectl
+: 1682221501:0;resolvectl status | bat -l py
+: 1682221542:0;zshconfig
+: 1682221876:0;zsh
+: 1682221877:0;gw
+: 1682221890:0;dns
+: 1682221895:0;cls
+: 1682221899:0;dotf
+: 1682221902:0;l
+: 1682221925:0;touch DONT-FORGET-TO-PUSHHHHHH
+: 1682221926:0;cls
+: 1682221928:0;l
+: 1682221959:0;mv DONT-FORGET-TO-PUSHHHHHH _DONT-FORGET-TO-PUSHHHHHH
+: 1682221962:0;l
+: 1682221970:0;ls
+: 1682221988:0;mv YOU-CAN-STOW.-NOW _YOU-CAN-STOW.-NOW
+: 1682221989:0;l
+: 1682221992:0;cls
+: 1682221993:0;ls
+: 1682221994:0;l
+: 1682221997:0;cls
+: 1682221998:0;l
+: 1682222018:0;ls -t
+: 1682222022:0;ls -tl
+: 1682222082:0;cls
+: 1682222083:0;ls
+: 1682222101:0;where ls
+: 1682222106:0;ls
+: 1682222109:0;~
+: 1682222109:0;s
+: 1682222110:0;ls
+: 1682222116:0;ll
+: 1682222120:0;l
+: 1682222160:0;dotf
+: 1682222161:0;l
+: 1682222198:0;mv _DONT-FORGET-TO-PUSHHHHHH 0_DONT-FORGET-TO-PUSHHHHHH
+: 1682222199:0;l
+: 1682222228:0;mv _YOU-CAN-STOW.-NOW 1_YOU-CAN-STOW.-NOW
+: 1682222229:0;l
+: 1682222245:0;git add .
+: 1682222274:0;gc -m "added netwoek utils to zsh"
+: 1682222282:0;gp
+: 1682222287:0;cls
+: 1682222298:0;stow .
+: 1682222303:0;cd ~
+: 1682222308:0;l
+: 1682222323:0;rm ripgrep_13.0.0_amd64.deb
+: 1682222328:0;rm YOU-CAN-STOW.-NOW
+: 1682222330:0;ls
+: 1682222332:0;l
+: 1682222346:0;ll
+: 1682222355:0;ll -S
+: 1682222387:0;du -sh
+: 1682222586:0;flatpak list | grep brave | awk '{print $3}'
+: 1682222591:0;flatpak list | grep brave 
+: 1682222607:0;flatpak list | fzf
+: 1682222671:0;du -h /var/lib/flatpak\
+
+: 1682222678:0;du -sh /var/lib/flatpak\
+
+: 1682222700:0;flatpak --columns=name,size list\
+
+: 1682222783:0;flatpak --columns=app,name,size,installation list\
+
+: 1682222822:0;flatpak uninstall --unused
+: 1682222870:0;sudo rm -rfv /var/tmp/flatpak-cache-*\
+
+: 1682222897:0;sudo du -sch /var/cache/apt/archives/\
+
+: 1682222908:0;sudo apt-get clean --dry-run\
+
+: 1682222919:0;sudo apt-get clean\
+
+: 1682222925:0;sudo apt clean
+: 1682222929:0;sudo du -sch /var/cache/apt/archives/\
+
+: 1682223018:0;where gimp
+: 1682223024:0;gimp
+: 1682223061:0;flatpak remove --unused\
+
+: 1682223170:0;flatpak list --apps
+: 1682223171:0;flatpak list --app
+: 1682223186:0;flatpak --columns=size list --app
+: 1682223197:0;flatpak --columns=name,size list --app
+: 1682223202:0;flatpak --columns=name,id,size list --app
+: 1682223211:0;flatpak --columns=name,application_id,size list --app
+: 1682223217:0;flatpak --columns=name,applicationid,size list --app
+: 1682223244:0;flatpak --columns=app,name,size,installation list\
+
+: 1682223280:0;flatpak run vlc
+: 1682223301:0;flatpak run org.videolan.VLC
+: 1682223469:0;zsh
+: 1682223486:0;h
+: 1682223504:0;cls
+: 1682223509:0;dotf
+: 1682223511:0;l
+: 1682223516:0;~
+: 1682223516:0;l
+: 1682223563:0;cp .zsh_history .dotfiles/.zsh_history.bak

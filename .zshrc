@@ -69,7 +69,9 @@ alias sf="nv \$(find . -type f | fzf)" # fuzzy finder select directory bah bah
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
+# Add to PATH
 export PATH="$HOME/node/bin:$PATH"
+export PATH="$HOME/bin:$PATH"
 export XDG_CONFIG_HOME="$HOME/.config"
 
 # usefull network debugging

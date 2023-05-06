@@ -30,7 +30,7 @@ plugins=(
   history
   colorize
   colored-man-pages
-  
+  jsontools  
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -62,7 +62,7 @@ alias dotf="cd ~/.dotfiles/"
 alias speed="curl https://video-vcdn.varzesh3.com/videos-quality/2023/04/23/D/e1j0b42h.mp4 --output /tmp/video.mp4"
 alias ram="free -h --si"
 alias port="ss -tulwn"
-alias docker-jupyter-scipy="docker run -it --rm --user root -e GRANT_SUDO=yes -e CHOWN_EXTRA="/home/jovyan/work" -e CHOWN_EXTRA_OPTS="-R" -p 8889:8888 -v "${PWD}":/home/jovyan/work jupyter/scipy-notebook:latest"
+alias docker-jupyter-scipy="docker run -it --rm --user root -e GRANT_SUDO=yes -e CHOWN_EXTRA="/home/jovyan/work" -e CHOWN_EXTRA_OPTS="-R" -p 8889:8888 -v "$(pwd)":/home/jovyan/work jupyter/scipy-notebook:latest"
 # alias python="python3.11"
 # alias pip="pip3.11"
 # alias sd="cd ~ && cd \$(find . -type d | fzf)" # fuzzy finder select directory bah bah

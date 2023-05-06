@@ -8,7 +8,7 @@ if ! (command -v wmctrl &> /dev/null); then
 fi
 
 # Launch Chrome and move to workspace 1
-google-chrome --new-window https://www.google.com &
+google-chrome --force-dark-mode --enable-features=WebUIDarkMode --new-window https://www.google.com &
 sleep 5 # Wait for Chrome to open before moving it
 wmctrl -r chrome -t 0
 wmctrl -r chrome -b add,maximized_vert,maximized_horz

@@ -27,14 +27,13 @@ plugins=(
 source $ZSH/oh-my-zsh.sh
 
 # aliases
-
 ## Configs quick edit
 EDITOR="nvim"
-alias zshconfig="$EDITOR~/.zshrc"
-alias ohmyzsh="$EDITOR~/.oh-my-zsh"
+alias zshconfig="$EDITOR ~/.zshrc"
+alias ohmyzsh="$EDITOR ~/.oh-my-zsh"
 alias nvimconfig="cd ~/.dotfiles/.config/nvim/lua/user/ && $EDITOR ."
-alias vimconfig="$EDITOR~/.config/nvim/vimrc.vim"
-alias alacconfig="$EDITOR~/.config/alacritty/alacritty.yml"
+alias vimconfig="$EDITOR ~/.config/nvim/vimrc.vim"
+alias alacconfig="$EDITOR ~/.config/alacritty/alacritty.yml"
 alias dotf="cd ~/.dotfiles/"
 
 ## Shorthand for commands
@@ -53,13 +52,30 @@ alias speed="curl https://video-vcdn.varzesh3.com/videos-quality/2023/04/23/D/e1
 alias ram="free -h --si"
 alias port="ss -tulwn"
 
+## Git commands
+alias gs="git status"
+alias gad="git add ."
+alias gp="git push"
+alias gcm="git commit -m"
+
 ## Tools/Custom commands
 alias sd="cd \$(find . -type d | fzf)" # fuzzy finder select directory bah bah
 alias sf="nv \$(find . -type f | fzf)" # fuzzy finder select directory bah bah
 # alias sd="cd ~ && cd \$(find . -type d | fzf)" # fuzzy finder select directory bah bah
 
 ## Docker aliases
-alias docker-jupyter-scipy="docker run -it --rm --user root -e GRANT_SUDO=yes -e CHOWN_EXTRA="/home/jovyan/work" -e CHOWN_EXTRA_OPTS="-R" -p 8889:8888 -v "$(pwd)":/home/jovyan/work jupyter/scipy-notebook:latest"
+function getwd() {
+  echo $(pwd)
+}
+alias docker-jupyter-scipy="docker run -it --rm --user root -e GRANT_SUDO=yes -e CHOWN_EXTRA="/home/jovyan/work" -e CHOWN_EXTRA_OPTS="-R" -p 8889:8888 -v "$(getwd)":/home/jovyan/work jupyter/scipy-notebook:latest"
+
+## Test fn
+testfn ()
+{
+  echo $(pwd) 
+}
+alias testfn="testfn"
+
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

@@ -87,7 +87,11 @@ alias testfn="testfn"
 export PATH="$PATH:/opt/nvim-linux64/bin"
 export PATH="$HOME/node/bin:$PATH"
 export PATH="$HOME/bin:$PATH"
-export XDG_CONFIG_HOME="$HOME/.config"
 export PATH="$HOME/.zig:$PATH"
+export PATH="$HOME/go/bin:/usr/local/go/bin:$PATH"
+
+export XDG_CONFIG_HOME="$HOME/.config"
 export TERM=xterm-256color
-# tmux attach || tmux new
+
+# tmux start
+tmux attach || tmux new

@@ -53,7 +53,9 @@ alias gw="ip route | bat -l py"
 alias addgw="sudo route add default gw 192.168.1.1"
 alias speed="curl https://www.python.org/ftp/python/3.12.3/python-3.12.3-amd64.exe --output /tmp/tempfileforspeed"
 alias ram="free -h --si"
-alias port="ss -tulwn"
+alias myip="hostname -I"
+alias port="sudo ss -tulnp"
+alias ports="sudo lsof -i -P -n"
 
 ## Git commands
 alias gs="git status"
